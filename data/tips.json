@@ -8,7 +8,7 @@
   "keep_rule": "ChatGPT and OpenAI-tooling",
   "scope_note": "Only ChatGPT and OpenAI tooling is covered here. Tips about Claude or other AI tools are left out, even when they come from the same accounts; a tip about a tool that works with several agents is included only when it names ChatGPT, Codex or an OpenAI product."
  },
- "last_run": "2026-11-19T21:59:58-07:00",
+ "last_run": "2026-11-20T05:10:06-07:00",
  "window": {
   "start": "2026-11-12",
   "end": "2026-11-19"
@@ -45,6 +45,14 @@
    "edition": "2026-11-19",
    "window": "video summaries (X clips) 2026-11-12/2026-11-19",
    "tips_added": 9,
+   "sources_added": 0,
+   "source_summaries_updated": 0
+  },
+  {
+   "at": "2026-11-20T05:10:06-07:00",
+   "edition": "2026-11-20",
+   "window": "2026-11-19/2026-11-20",
+   "tips_added": 7,
    "sources_added": 0,
    "source_summaries_updated": 0
   }
@@ -1000,6 +1008,155 @@
    "source_id": "x-2123557171321561133",
    "added_at": "2026-11-19T21:59:58-07:00",
    "edition": "2026-11-19"
+  },
+  {
+   "id": "yt-QRm7VNMnurA-195",
+   "date": "2026-11-13",
+   "posted_at": "2026-11-13T09:17:33.000Z",
+   "author": "kagigz",
+   "topic": "ChatGPT features",
+   "subcategory": "Sites",
+   "tags": [
+    "sites",
+    "codex",
+    "prompting",
+    "video"
+   ],
+   "title": "Publish a Site from one detailed Codex prompt",
+   "tip": "Point Codex at existing data (a Google Sheet in the demo) and describe the whole app in one prompt: the design system to use, what must be visible on the first screen, filters, views (list, board, calendar) and links to open. The demo prompt: \"Can you turn this sheet into a launch radar app in a new folder and then publish it as a site?\" followed by those requirements. The result includes a built-in SQLite database.",
+   "source_type": "video",
+   "video_timestamp": "3:15",
+   "source_url": "https://www.youtube.com/watch?v=QRm7VNMnurA&t=195s",
+   "source_id": "yt-QRm7VNMnurA",
+   "added_at": "2026-11-20T05:10:06-07:00",
+   "edition": "2026-11-20"
+  },
+  {
+   "id": "yt-QRm7VNMnurA-242",
+   "date": "2026-11-13",
+   "posted_at": "2026-11-13T09:17:33.000Z",
+   "author": "kagigz",
+   "topic": "ChatGPT features",
+   "subcategory": "Sites",
+   "tags": [
+    "sites",
+    "scheduled tasks",
+    "video"
+   ],
+   "title": "Keep a Site's data fresh with a scheduled task",
+   "tip": "Ask Codex to set up a recurring refresh, for example \"Can you keep this site up-to-date every morning using the launch briefs linked from the sheet.\" It creates a scheduled task (shown later as Repeat: Daily, 8:00 AM).",
+   "source_type": "video",
+   "video_timestamp": "4:02",
+   "source_url": "https://www.youtube.com/watch?v=QRm7VNMnurA&t=242s",
+   "source_id": "yt-QRm7VNMnurA",
+   "added_at": "2026-11-20T05:10:06-07:00",
+   "edition": "2026-11-20"
+  },
+  {
+   "id": "yt-QRm7VNMnurA-366",
+   "date": "2026-11-13",
+   "posted_at": "2026-11-13T09:17:33.000Z",
+   "author": "kagigz",
+   "topic": "ChatGPT features",
+   "subcategory": "Sites",
+   "tags": [
+    "sites",
+    "permissions",
+    "video"
+   ],
+   "title": "Sites are private by default",
+   "tip": "Sites come with Sign in with ChatGPT and start restricted. Use the \"Who can access\" menu to choose Only you, Specific people, Your organization or Public.",
+   "source_type": "video",
+   "video_timestamp": "6:06",
+   "source_url": "https://www.youtube.com/watch?v=QRm7VNMnurA&t=366s",
+   "source_id": "yt-QRm7VNMnurA",
+   "added_at": "2026-11-20T05:10:06-07:00",
+   "edition": "2026-11-20"
+  },
+  {
+   "id": "yt-QRm7VNMnurA-448",
+   "date": "2026-11-13",
+   "posted_at": "2026-11-13T09:17:33.000Z",
+   "author": "kagigz",
+   "topic": "ChatGPT features",
+   "subcategory": "Sites",
+   "tags": [
+    "sites",
+    "connectors",
+    "video"
+   ],
+   "title": "Add a read/write connector so each user sees their own data",
+   "tip": "Ask Codex to add a connector to the site with read and write access (Linear in the demo) so each signed-in person sees their own assigned tickets and can change a status or description and save it back.",
+   "source_type": "video",
+   "video_timestamp": "7:28",
+   "source_url": "https://www.youtube.com/watch?v=QRm7VNMnurA&t=448s",
+   "source_id": "yt-QRm7VNMnurA",
+   "added_at": "2026-11-20T05:10:06-07:00",
+   "edition": "2026-11-20"
+  },
+  {
+   "id": "yt-QRm7VNMnurA-568",
+   "date": "2026-11-13",
+   "posted_at": "2026-11-13T09:17:33.000Z",
+   "author": "kagigz",
+   "topic": "ChatGPT features",
+   "subcategory": "Sites",
+   "tags": [
+    "sites",
+    "sharing",
+    "video"
+   ],
+   "title": "Give a teammate Editor access",
+   "tip": "Click Share, add the person, and set their permission to Editor so they can make structural changes to the site.",
+   "source_type": "video",
+   "video_timestamp": "9:28",
+   "source_url": "https://www.youtube.com/watch?v=QRm7VNMnurA&t=568s",
+   "source_id": "yt-QRm7VNMnurA",
+   "added_at": "2026-11-20T05:10:06-07:00",
+   "edition": "2026-11-20"
+  },
+  {
+   "id": "yt-QRm7VNMnurA-794",
+   "date": "2026-11-13",
+   "posted_at": "2026-11-13T09:17:33.000Z",
+   "author": "kagigz",
+   "topic": "ChatGPT features",
+   "subcategory": "Sites",
+   "tags": [
+    "sites",
+    "annotation",
+    "video"
+   ],
+   "title": "Edit visually with Annotation mode",
+   "tip": "Click the Annotate button and allow annotation mode when the site asks. Then click a UI component, adjust it with the on-screen controls, and confirm the change in the Codex chat to apply it.",
+   "source_type": "video",
+   "video_timestamp": "13:14",
+   "source_url": "https://www.youtube.com/watch?v=QRm7VNMnurA&t=794s",
+   "source_id": "yt-QRm7VNMnurA",
+   "added_at": "2026-11-20T05:10:06-07:00",
+   "edition": "2026-11-20"
+  },
+  {
+   "id": "yt-QRm7VNMnurA-963",
+   "date": "2026-11-13",
+   "posted_at": "2026-11-13T09:17:33.000Z",
+   "author": "kagigz",
+   "topic": "ChatGPT features",
+   "subcategory": "Sites",
+   "tags": [
+    "sites",
+    "webmcp",
+    "agents",
+    "video"
+   ],
+   "title": "Expose site tools to agents with WebMCP",
+   "tip": "WebMCP is a browser standard that lets an agent call a site's tools directly instead of clicking through the UI. In the demo the agent opens the site's \"Available site tools\" and uses a \"Suggest items\" tool to answer a gift request built from Slack DMs.",
+   "source_type": "video",
+   "video_timestamp": "16:03",
+   "source_url": "https://www.youtube.com/watch?v=QRm7VNMnurA&t=963s",
+   "source_id": "yt-QRm7VNMnurA",
+   "added_at": "2026-11-20T05:10:06-07:00",
+   "edition": "2026-11-20"
   }
  ],
  "sources": [
@@ -1011,12 +1168,14 @@
    "posted_in": "https://x.com/kagigz/status/2121170592640401672",
    "author": "kagigz",
    "topic": "ChatGPT features",
-   "subcategory": "Plugins & work solutions",
-   "summary_status": "coming",
-   "summary": "DevDay talk by @kagigz and @JonathanAbrams, who created ChatGPT Sites, on Sites and the future of web experiences. Summary coming once the video has been watched.",
+   "subcategory": "Sites",
+   "summary_status": "done",
+   "summary": "DevDay talk by Katia Gil Guzman (@kagigz) and Jon Abrams introducing ChatGPT Sites: building and publishing a full-stack site from one Codex prompt, scheduled data refreshes, access and sharing controls, a read/write Linear connector, Annotation mode for visual edits, and exposing site tools to agents with WebMCP.",
    "date": "2026-11-13",
    "added_at": "2026-11-19T21:52:34-07:00",
-   "edition": "2026-11-19"
+   "edition": "2026-11-19",
+   "has_local_copy": true,
+   "duration_s": 1248
   },
   {
    "type": "article",

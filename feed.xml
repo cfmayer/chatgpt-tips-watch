@@ -5,8 +5,26 @@
   <link rel="self" type="application/atom+xml" href="https://cfmayer.github.io/chatgpt-tips-watch/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/"/>
   <id>https://cfmayer.github.io/chatgpt-tips-watch/</id>
-  <updated>2026-11-19T21:59:58-07:00</updated>
+  <updated>2026-11-20T05:10:06-07:00</updated>
   <author><name>ChatGPT Tips Watch</name></author>
+  <entry>
+    <title>ChatGPT features › Sites: Sites and the future of web experiences (OpenAI DevDay talk)</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-yt-QRm7VNMnurA"/>
+    <link rel="related" href="https://www.youtube.com/watch?v=QRm7VNMnurA"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-yt-QRm7VNMnurA</id>
+    <published>2026-11-13T09:17:33.000Z</published>
+    <updated>2026-11-20T05:10:06-07:00</updated>
+    <author><name>@kagigz</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>DevDay talk by Katia Gil Guzman (@kagigz) and Jon Abrams introducing ChatGPT Sites: building and publishing a full-stack site from one Codex prompt, scheduled data refreshes, access and sharing controls, a read/write Linear connector, Annotation mode for visual edits, and exposing site tools to agents with WebMCP.
+• 3:15 Publish a Site from one detailed Codex prompt: Point Codex at existing data (a Google Sheet in the demo) and describe the whole app in one prompt: the design system to use, what must be visible on the first screen, filters, views (list, board, calendar) and links to open. The demo prompt: &quot;Can you turn this sheet into a launch radar app in a new folder and then publish it as a site?&quot; followed by those requirements. The result includes a built-in SQLite database.
+• 4:02 Keep a Site&#x27;s data fresh with a scheduled task: Ask Codex to set up a recurring refresh, for example &quot;Can you keep this site up-to-date every morning using the launch briefs linked from the sheet.&quot; It creates a scheduled task (shown later as Repeat: Daily, 8:00 AM).
+• 6:06 Sites are private by default: Sites come with Sign in with ChatGPT and start restricted. Use the &quot;Who can access&quot; menu to choose Only you, Specific people, Your organization or Public.
+• 7:28 Add a read/write connector so each user sees their own data: Ask Codex to add a connector to the site with read and write access (Linear in the demo) so each signed-in person sees their own assigned tickets and can change a status or description and save it back.
+• 9:28 Give a teammate Editor access: Click Share, add the person, and set their permission to Editor so they can make structural changes to the site.
+• 13:14 Edit visually with Annotation mode: Click the Annotate button and allow annotation mode when the site asks. Then click a UI component, adjust it with the on-screen controls, and confirm the change in the Codex chat to apply it.
+• 16:03 Expose site tools to agents with WebMCP: WebMCP is a browser standard that lets an agent call a site&#x27;s tools directly instead of clicking through the UI. In the demo the agent opens the site&#x27;s &quot;Available site tools&quot; and uses a &quot;Suggest items&quot; tool to answer a gift request built from Slack DMs. (Source: https://www.youtube.com/watch?v=QRm7VNMnurA)</summary>
+  </entry>
   <entry>
     <title>ChatGPT features › Mobile &amp; voice: New ChatGPT mobile design with dots</title>
     <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123557171321561133"/>
@@ -367,17 +385,6 @@
     <author><name>@ChatGPT</name></author>
     <category term="edition-2026-11-19"/>
     <summary>• Let your dot pay with ChatGPT Wallet: Your dot can complete purchases for you, with your approval. With ChatGPT Wallet, agents pay without access to your actual card details and every purchase requires a security check. Rolling out to dots for Pro subscribers in the US. (Source: https://x.com/ChatGPT/status/2121283151729496235)</summary>
-  </entry>
-  <entry>
-    <title>ChatGPT features › Plugins &amp; work solutions: Sites and the future of web experiences (OpenAI DevDay talk)</title>
-    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-yt-QRm7VNMnurA"/>
-    <link rel="related" href="https://www.youtube.com/watch?v=QRm7VNMnurA"/>
-    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-yt-QRm7VNMnurA</id>
-    <published>2026-11-13T00:00:00Z</published>
-    <updated>2026-11-19T21:52:34-07:00</updated>
-    <author><name>@kagigz</name></author>
-    <category term="edition-2026-11-19"/>
-    <summary>DevDay talk by @kagigz and @JonathanAbrams, who created ChatGPT Sites, on Sites and the future of web experiences. Summary coming once the video has been watched. (Source: https://www.youtube.com/watch?v=QRm7VNMnurA)</summary>
   </entry>
   <entry>
     <title>Agents &amp; security › Cyber tools: Daybreak Defense Factory</title>
