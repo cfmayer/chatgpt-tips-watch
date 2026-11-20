@@ -8,7 +8,7 @@
   "keep_rule": "ChatGPT and OpenAI-tooling",
   "scope_note": "Only ChatGPT and OpenAI tooling is covered here. Tips about Claude or other AI tools are left out, even when they come from the same accounts; a tip about a tool that works with several agents is included only when it names ChatGPT, Codex or an OpenAI product."
  },
- "last_run": "2026-11-19T21:52:34-07:00",
+ "last_run": "2026-11-19T21:59:58-07:00",
  "window": {
   "start": "2026-11-12",
   "end": "2026-11-19"
@@ -38,6 +38,14 @@
    "window": "2026-11-12/2026-11-19",
    "tips_added": 39,
    "sources_added": 34,
+   "source_summaries_updated": 0
+  },
+  {
+   "at": "2026-11-19T21:59:58-07:00",
+   "edition": "2026-11-19",
+   "window": "video summaries (X clips) 2026-11-12/2026-11-19",
+   "tips_added": 9,
+   "sources_added": 0,
    "source_summaries_updated": 0
   }
  ],
@@ -805,6 +813,193 @@
    "added_at": "2026-11-19T21:52:34-07:00",
    "edition": "2026-11-19",
    "source_id": "x-2120984789767365069"
+  },
+  {
+   "id": "x-2120970988796170275-2",
+   "date": "2026-11-12",
+   "posted_at": "2026-11-12T20:04:24Z",
+   "author": "ChatGPT",
+   "topic": "ChatGPT features",
+   "subcategory": "Dots",
+   "tags": [
+    "dots",
+    "custom instructions",
+    "video"
+   ],
+   "title": "Where dot custom instructions live on desktop",
+   "tip": "On desktop, open the three-dot menu on the dot sidebar and choose Custom instructions (the same menu has Rename, Pause, Reboot and Delete).",
+   "source_type": "video",
+   "video_timestamp": "0:02",
+   "source_url": "https://x.com/ChatGPT/status/2120970988796170275",
+   "source_id": "x-2120970988796170275",
+   "added_at": "2026-11-19T21:59:58-07:00",
+   "edition": "2026-11-19"
+  },
+  {
+   "id": "x-2120970988796170275-5",
+   "date": "2026-11-12",
+   "posted_at": "2026-11-12T20:04:24Z",
+   "author": "ChatGPT",
+   "topic": "ChatGPT features",
+   "subcategory": "Dots",
+   "tags": [
+    "dots",
+    "custom instructions",
+    "video"
+   ],
+   "title": "Write instructions as plain-language rules",
+   "tip": "Type rules in plain language, such as when and where to notify you (the demo asks to be told in Slack about urgent updates), then Save.",
+   "source_type": "video",
+   "video_timestamp": "0:05",
+   "source_url": "https://x.com/ChatGPT/status/2120970988796170275",
+   "source_id": "x-2120970988796170275",
+   "added_at": "2026-11-19T21:59:58-07:00",
+   "edition": "2026-11-19"
+  },
+  {
+   "id": "x-2123188195202617408-4",
+   "date": "2026-11-18",
+   "posted_at": "2026-11-18T22:54:47Z",
+   "author": "OpenAIDevs",
+   "topic": "OpenAI API",
+   "subcategory": "Responses API & reasoning",
+   "tags": [
+    "background mode",
+    "cost",
+    "video"
+   ],
+   "title": "Pick a completion window",
+   "tip": "Background Mode offers completion windows from Ultrafast, Fast and Standard to 2h and 8h; the longer windows are the discounted ones.",
+   "source_type": "video",
+   "video_timestamp": "0:04",
+   "source_url": "https://x.com/OpenAIDevs/status/2123188195202617408",
+   "source_id": "x-2123188195202617408",
+   "added_at": "2026-11-19T21:59:58-07:00",
+   "edition": "2026-11-19"
+  },
+  {
+   "id": "x-2123188195202617408-9",
+   "date": "2026-11-18",
+   "posted_at": "2026-11-18T22:54:47Z",
+   "author": "OpenAIDevs",
+   "topic": "OpenAI API",
+   "subcategory": "Responses API & reasoning",
+   "tags": [
+    "background mode",
+    "video"
+   ],
+   "title": "Request shape for an 8h window",
+   "tip": "Set `\"background\": true` and `\"background_options\": {\"completion_window\": \"8h\"}` on the request (shown with `gpt-6.2-sol`). Good for jobs like overnight morning briefs.",
+   "source_type": "video",
+   "video_timestamp": "0:09",
+   "source_url": "https://x.com/OpenAIDevs/status/2123188195202617408",
+   "source_id": "x-2123188195202617408",
+   "added_at": "2026-11-19T21:59:58-07:00",
+   "edition": "2026-11-19"
+  },
+  {
+   "id": "x-2123471880292299171-9",
+   "date": "2026-11-19",
+   "posted_at": "2026-11-19T17:42:03Z",
+   "author": "OpenAIDevs",
+   "topic": "Codex",
+   "subcategory": "Large builds & agent fleets",
+   "tags": [
+    "agents",
+    "review",
+    "video"
+   ],
+   "title": "Keep a human deciding what ships",
+   "tip": "In the Performance Factory loop, agents find the root cause and propose a fix, but an engineer reviews and deploys it.",
+   "source_type": "video",
+   "video_timestamp": "0:09",
+   "source_url": "https://x.com/OpenAIDevs/status/2123471880292299171",
+   "source_id": "x-2123471880292299171",
+   "added_at": "2026-11-19T21:59:58-07:00",
+   "edition": "2026-11-19"
+  },
+  {
+   "id": "x-2123471880292299171-13",
+   "date": "2026-11-19",
+   "posted_at": "2026-11-19T17:42:03Z",
+   "author": "OpenAIDevs",
+   "topic": "Codex",
+   "subcategory": "Large builds & agent fleets",
+   "tags": [
+    "agents",
+    "verification",
+    "video"
+   ],
+   "title": "Have the agent verify recovery",
+   "tip": "After deployment, the agent checks whether performance recovered; if it is still regressed, the loop goes back to investigation instead of closing.",
+   "source_type": "video",
+   "video_timestamp": "0:13",
+   "source_url": "https://x.com/OpenAIDevs/status/2123471880292299171",
+   "source_id": "x-2123471880292299171",
+   "added_at": "2026-11-19T21:59:58-07:00",
+   "edition": "2026-11-19"
+  },
+  {
+   "id": "x-2123557171321561133-15",
+   "date": "2026-11-19",
+   "posted_at": "2026-11-20T03:06:13Z",
+   "author": "thsottiaux",
+   "topic": "ChatGPT features",
+   "subcategory": "Mobile & voice",
+   "tags": [
+    "mobile",
+    "video"
+   ],
+   "title": "Find modules behind the grid icon",
+   "tip": "The grid icon at the bottom right of the tab bar opens modules such as Projects, Images, Scheduled, Codex, Plugins, Health and Sites.",
+   "source_type": "video",
+   "video_timestamp": "0:15",
+   "source_url": "https://x.com/thsottiaux/status/2123557171321561133",
+   "source_id": "x-2123557171321561133",
+   "added_at": "2026-11-19T21:59:58-07:00",
+   "edition": "2026-11-19"
+  },
+  {
+   "id": "x-2123557171321561133-17",
+   "date": "2026-11-19",
+   "posted_at": "2026-11-20T03:06:13Z",
+   "author": "thsottiaux",
+   "topic": "ChatGPT features",
+   "subcategory": "Mobile & voice",
+   "tags": [
+    "mobile",
+    "codex",
+    "video"
+   ],
+   "title": "Pin a module to the tab bar",
+   "tip": "Tap and hold a module (for example Codex) and choose Pin to tab bar, or Reorder.",
+   "source_type": "video",
+   "video_timestamp": "0:17",
+   "source_url": "https://x.com/thsottiaux/status/2123557171321561133",
+   "source_id": "x-2123557171321561133",
+   "added_at": "2026-11-19T21:59:58-07:00",
+   "edition": "2026-11-19"
+  },
+  {
+   "id": "x-2123557171321561133-14",
+   "date": "2026-11-19",
+   "posted_at": "2026-11-20T03:06:13Z",
+   "author": "thsottiaux",
+   "topic": "ChatGPT features",
+   "subcategory": "Dots",
+   "tags": [
+    "dots",
+    "connectors",
+    "video"
+   ],
+   "title": "Connect apps from the dot chat",
+   "tip": "Your dot can offer integrations right in the chat, such as a Connect button for Gmail.",
+   "source_type": "video",
+   "video_timestamp": "0:14",
+   "source_url": "https://x.com/thsottiaux/status/2123557171321561133",
+   "source_id": "x-2123557171321561133",
+   "added_at": "2026-11-19T21:59:58-07:00",
+   "edition": "2026-11-19"
   }
  ],
  "sources": [
@@ -925,33 +1120,45 @@
   },
   {
    "id": "x-2123471880292299171",
-   "type": "post",
-   "title": null,
+   "type": "video",
+   "title": "Performance Factory regression workflow (diagram)",
    "author": "OpenAIDevs",
    "url": "https://x.com/OpenAIDevs/status/2123471880292299171",
    "date": "2026-11-19",
    "added_at": "2026-11-19T21:52:34-07:00",
-   "edition": "2026-11-19"
+   "edition": "2026-11-19",
+   "duration_s": 23,
+   "summary": "Diagram of the Performance Factory loop: a regression is detected, an agent finds the root cause and proposes a fix, an engineer reviews and deploys it, and the agent verifies recovery or loops back to investigation.",
+   "summary_status": "done",
+   "has_local_copy": true
   },
   {
    "id": "x-2123557171321561133",
-   "type": "post",
-   "title": null,
-   "author": "dkundel",
-   "url": "https://x.com/dkundel/status/2123613858208337954",
+   "type": "video",
+   "title": "New ChatGPT mobile design with dots",
+   "author": "thsottiaux",
+   "url": "https://x.com/thsottiaux/status/2123557171321561133",
    "date": "2026-11-19",
    "added_at": "2026-11-19T21:52:34-07:00",
-   "edition": "2026-11-19"
+   "edition": "2026-11-19",
+   "duration_s": 21,
+   "summary": "iOS onboarding for the new ChatGPT mobile design: the dot offers integrations in chat, a grid of modules (Projects, Images, Scheduled, Codex, Plugins, Health, Sites and more), and pinning modules to the tab bar.",
+   "summary_status": "done",
+   "has_local_copy": true
   },
   {
    "id": "x-2120970988796170275",
-   "type": "post",
-   "title": null,
+   "type": "video",
+   "title": "Custom instructions for your dot (demo)",
    "author": "ChatGPT",
    "url": "https://x.com/ChatGPT/status/2120970988796170275",
    "date": "2026-11-12",
    "added_at": "2026-11-19T21:52:34-07:00",
-   "edition": "2026-11-19"
+   "edition": "2026-11-19",
+   "duration_s": 16,
+   "summary": "Desktop dot sidebar: opening the dot's menu and adding custom instructions in plain language.",
+   "summary_status": "done",
+   "has_local_copy": true
   },
   {
    "id": "x-2122530589681291754",
@@ -971,7 +1178,10 @@
    "url": "https://x.com/dkundel/status/2122417421327737077",
    "date": "2026-11-16",
    "added_at": "2026-11-19T21:52:34-07:00",
-   "edition": "2026-11-19"
+   "edition": "2026-11-19",
+   "duration_s": 12,
+   "summary": "The clip shows the finished, edited video (a chef with a blowtorch); it contains no AI tips of its own.",
+   "summary_status": "done"
   },
   {
    "id": "x-2123114715257946334",
@@ -1075,13 +1285,17 @@
   },
   {
    "id": "x-2123188195202617408",
-   "type": "post",
-   "title": null,
+   "type": "video",
+   "title": "Responses API Background Mode (demo)",
    "author": "OpenAIDevs",
    "url": "https://x.com/OpenAIDevs/status/2123188195202617408",
    "date": "2026-11-18",
    "added_at": "2026-11-19T21:52:34-07:00",
-   "edition": "2026-11-19"
+   "edition": "2026-11-19",
+   "duration_s": 34,
+   "summary": "Background Mode for asynchronous jobs, with overnight morning briefs as the example: picking a completion window and setting it on the request.",
+   "summary_status": "done",
+   "has_local_copy": true
   },
   {
    "id": "x-2123566018866151579",

@@ -5,20 +5,66 @@
   <link rel="self" type="application/atom+xml" href="https://cfmayer.github.io/chatgpt-tips-watch/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/"/>
   <id>https://cfmayer.github.io/chatgpt-tips-watch/</id>
-  <updated>2026-11-19T21:52:34-07:00</updated>
+  <updated>2026-11-19T21:59:58-07:00</updated>
   <author><name>ChatGPT Tips Watch</name></author>
   <entry>
-    <title>ChatGPT features › Dots: Dots are expanding to Plus and Business</title>
+    <title>ChatGPT features › Mobile &amp; voice: New ChatGPT mobile design with dots</title>
     <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123557171321561133"/>
-    <link rel="related" href="https://x.com/dkundel/status/2123613858208337954"/>
+    <link rel="related" href="https://x.com/thsottiaux/status/2123557171321561133"/>
     <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123557171321561133</id>
     <published>2026-11-19T23:17:19Z</published>
-    <updated>2026-11-19T21:52:34-07:00</updated>
-    <author><name>@dkundel</name></author>
+    <updated>2026-11-19T21:59:58-07:00</updated>
+    <author><name>@thsottiaux</name></author>
     <category term="edition-2026-11-19"/>
-    <summary>• Dots are expanding to Plus and Business: Dots are being tested with a small number of ChatGPT Plus users, and rolling out to all ChatGPT Business Standard users.
+    <summary>iOS onboarding for the new ChatGPT mobile design: the dot offers integrations in chat, a grid of modules (Projects, Images, Scheduled, Codex, Plugins, Health, Sites and more), and pinning modules to the tab bar.
+• Dots are expanding to Plus and Business: Dots are being tested with a small number of ChatGPT Plus users, and rolling out to all ChatGPT Business Standard users.
 • Try the new ChatGPT mobile design: A new ChatGPT mobile experience is rolling out to Pro users who have (or can create) a dot: the dot gets its own tab, and you can pin Codex, Projects, Images and more to the tab bar. Turn it on or off in Settings &gt; New ChatGPT Design.
-• Pin Codex in the new mobile app: In the new ChatGPT mobile experience, pin Codex to the tab bar for quick access. (Source: https://x.com/dkundel/status/2123613858208337954)</summary>
+• Pin Codex in the new mobile app: In the new ChatGPT mobile experience, pin Codex to the tab bar for quick access.
+• 0:14 Connect apps from the dot chat: Your dot can offer integrations right in the chat, such as a Connect button for Gmail.
+• 0:15 Find modules behind the grid icon: The grid icon at the bottom right of the tab bar opens modules such as Projects, Images, Scheduled, Codex, Plugins, Health and Sites.
+• 0:17 Pin a module to the tab bar: Tap and hold a module (for example Codex) and choose Pin to tab bar, or Reorder. (Source: https://x.com/thsottiaux/status/2123557171321561133)</summary>
+  </entry>
+  <entry>
+    <title>Codex › Large builds &amp; agent fleets: Performance Factory regression workflow (diagram)</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123471880292299171"/>
+    <link rel="related" href="https://x.com/OpenAIDevs/status/2123471880292299171"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123471880292299171</id>
+    <published>2026-11-19T17:42:03Z</published>
+    <updated>2026-11-19T21:59:58-07:00</updated>
+    <author><name>@OpenAIDevs</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>Diagram of the Performance Factory loop: a regression is detected, an agent finds the root cause and proposes a fix, an engineer reviews and deploys it, and the agent verifies recovery or loops back to investigation.
+• OpenAI&#x27;s Performance Factory pattern: OpenAI built a Codex-powered Performance Factory that coordinates agents to investigate performance regressions, propose fixes for engineers to review, and check whether those fixes work in production.
+• 0:09 Keep a human deciding what ships: In the Performance Factory loop, agents find the root cause and propose a fix, but an engineer reviews and deploys it.
+• 0:13 Have the agent verify recovery: After deployment, the agent checks whether performance recovered; if it is still regressed, the loop goes back to investigation instead of closing. (Source: https://x.com/OpenAIDevs/status/2123471880292299171)</summary>
+  </entry>
+  <entry>
+    <title>OpenAI API › Responses API &amp; reasoning: Responses API Background Mode (demo)</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123188195202617408"/>
+    <link rel="related" href="https://x.com/OpenAIDevs/status/2123188195202617408"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123188195202617408</id>
+    <published>2026-11-18T22:54:47Z</published>
+    <updated>2026-11-19T21:59:58-07:00</updated>
+    <author><name>@OpenAIDevs</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>Background Mode for asynchronous jobs, with overnight morning briefs as the example: picking a completion window and setting it on the request.
+• Background mode discounts for work that can wait: For single- or multi-turn workflows that can wait, Responses API background mode lets you pick a 2h or 8h target for the first response and save up to 40% per token versus Standard on GPT-6.2 Astra or Sol (public beta).
+• 0:04 Pick a completion window: Background Mode offers completion windows from Ultrafast, Fast and Standard to 2h and 8h; the longer windows are the discounted ones.
+• 0:09 Request shape for an 8h window: Set `&quot;background&quot;: true` and `&quot;background_options&quot;: {&quot;completion_window&quot;: &quot;8h&quot;}` on the request (shown with `gpt-6.2-sol`). Good for jobs like overnight morning briefs. (Source: https://x.com/OpenAIDevs/status/2123188195202617408)</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT features › Dots: Custom instructions for your dot (demo)</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2120970988796170275"/>
+    <link rel="related" href="https://x.com/ChatGPT/status/2120970988796170275"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2120970988796170275</id>
+    <published>2026-11-12T20:04:24Z</published>
+    <updated>2026-11-19T21:59:58-07:00</updated>
+    <author><name>@ChatGPT</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>Desktop dot sidebar: opening the dot&#x27;s menu and adding custom instructions in plain language.
+• Give your dot custom instructions: Dots now follow custom instructions. Tell your dot in the thread how to behave or which actions need your go-ahead (for example &quot;always talk in lowercase&quot; or &quot;Show me a draft before sending any emails&quot;), or set instructions and rules in Customize &gt; Behavior on mobile or from your dot&#x27;s menu on web and desktop.
+• 0:02 Where dot custom instructions live on desktop: On desktop, open the three-dot menu on the dot sidebar and choose Custom instructions (the same menu has Rename, Pause, Reboot and Delete).
+• 0:05 Write instructions as plain-language rules: Type rules in plain language, such as when and where to notify you (the demo asks to be told in Slack about urgent updates), then Save. (Source: https://x.com/ChatGPT/status/2120970988796170275)</summary>
   </entry>
   <entry>
     <title>OpenAI API › Responses API &amp; reasoning: Reasoning items are tied to history</title>
@@ -65,17 +111,6 @@
     <summary>• Instructions-field caching bug on 6.2: A reported bug (Codex issue #62312): on GPT-6.2 Astra and Sol, content in the top-level `instructions` field of a Responses API request isn&#x27;t cached, even though diagnostics report a cache hit; one report saw cache hit rates fall from 97.4% to 46.4%. Workaround: put the system prompt in a leading developer message in `input`. He landed a fix in OpenClaw&#x27;s embedded harness. (Source: https://x.com/steipete/status/2123487048250327497)</summary>
   </entry>
   <entry>
-    <title>Codex › Large builds &amp; agent fleets: OpenAI&#x27;s Performance Factory pattern</title>
-    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123471880292299171"/>
-    <link rel="related" href="https://x.com/OpenAIDevs/status/2123471880292299171"/>
-    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123471880292299171</id>
-    <published>2026-11-19T17:42:03Z</published>
-    <updated>2026-11-19T21:52:34-07:00</updated>
-    <author><name>@OpenAIDevs</name></author>
-    <category term="edition-2026-11-19"/>
-    <summary>• OpenAI&#x27;s Performance Factory pattern: OpenAI built a Codex-powered Performance Factory that coordinates agents to investigate performance regressions, propose fixes for engineers to review, and check whether those fixes work in production. (Source: https://x.com/OpenAIDevs/status/2123471880292299171)</summary>
-  </entry>
-  <entry>
     <title>Codex › Sandbox &amp; permissions: Keep network access separate from repo edits</title>
     <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123129469447880885"/>
     <link rel="related" href="https://x.com/OpenAIDevs/status/2123129469447880885"/>
@@ -86,17 +121,6 @@
     <category term="edition-2026-11-19"/>
     <summary>• Keep network access separate from repo edits: A command that edits your repo shouldn&#x27;t automatically get network access. The Codex sandbox runs commands in your existing environment within the filesystem and network limits you control.
 • Inside the Codex sandbox: OpenAI&#x27;s write-up covers the tradeoffs behind Codex&#x27;s sandbox defaults, how the harness uses the sandbox to run commands, how users and enterprises can tailor its permissions, how developers can reuse the sandbox in their own tools, and how it is enforced on macOS, Linux and Windows. (Source: https://x.com/OpenAIDevs/status/2123129469447880885)</summary>
-  </entry>
-  <entry>
-    <title>OpenAI API › Caching &amp; cost: Background mode discounts for work that can wait</title>
-    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123188195202617408"/>
-    <link rel="related" href="https://x.com/OpenAIDevs/status/2123188195202617408"/>
-    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123188195202617408</id>
-    <published>2026-11-18T22:54:47Z</published>
-    <updated>2026-11-19T21:52:34-07:00</updated>
-    <author><name>@OpenAIDevs</name></author>
-    <category term="edition-2026-11-19"/>
-    <summary>• Background mode discounts for work that can wait: For single- or multi-turn workflows that can wait, Responses API background mode lets you pick a 2h or 8h target for the first response and save up to 40% per token versus Standard on GPT-6.2 Astra or Sol (public beta). (Source: https://x.com/OpenAIDevs/status/2123188195202617408)</summary>
   </entry>
   <entry>
     <title>Codex › Feedback &amp; app: Report code-quality problems with /feedback</title>
@@ -330,7 +354,8 @@
     <updated>2026-11-19T21:52:34-07:00</updated>
     <author><name>@dkundel</name></author>
     <category term="edition-2026-11-19"/>
-    <summary>• Send your dot a reference photo to edit video remotely: He sends an edited photo to his dot, and it color-grades and edits a video on his laptop at the other end of the country. (Source: https://x.com/dkundel/status/2122417421327737077)</summary>
+    <summary>The clip shows the finished, edited video (a chef with a blowtorch); it contains no AI tips of its own.
+• Send your dot a reference photo to edit video remotely: He sends an edited photo to his dot, and it color-grades and edits a video on his laptop at the other end of the country. (Source: https://x.com/dkundel/status/2122417421327737077)</summary>
   </entry>
   <entry>
     <title>ChatGPT features › Wallet &amp; payments: Let your dot pay with ChatGPT Wallet</title>
@@ -364,17 +389,6 @@
     <author><name>@TheRealAdamG</name></author>
     <category term="edition-2026-11-19"/>
     <summary>• Daybreak Defense Factory: Daybreak Defense Factory scans code in a connected GitHub repository and shares the findings with your team. (Source: https://x.com/TheRealAdamG/status/2120984789767365069)</summary>
-  </entry>
-  <entry>
-    <title>ChatGPT features › Dots: Give your dot custom instructions</title>
-    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2120970988796170275"/>
-    <link rel="related" href="https://x.com/ChatGPT/status/2120970988796170275"/>
-    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2120970988796170275</id>
-    <published>2026-11-12T20:04:24Z</published>
-    <updated>2026-11-19T21:52:34-07:00</updated>
-    <author><name>@ChatGPT</name></author>
-    <category term="edition-2026-11-19"/>
-    <summary>• Give your dot custom instructions: Dots now follow custom instructions. Tell your dot in the thread how to behave or which actions need your go-ahead (for example &quot;always talk in lowercase&quot; or &quot;Show me a draft before sending any emails&quot;), or set instructions and rules in Customize &gt; Behavior on mobile or from your dot&#x27;s menu on web and desktop. (Source: https://x.com/ChatGPT/status/2120970988796170275)</summary>
   </entry>
   <entry>
     <title>Agents &amp; security › Persistent agents: Manage persistent agents like contractors</title>
