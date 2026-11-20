@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ChatGPT Tips Watch</title>
+  <subtitle>Searchable reference of ChatGPT and Codex tips from 16 accounts on X</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://cfmayer.github.io/chatgpt-tips-watch/feed.xml"/>
+  <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/"/>
+  <id>https://cfmayer.github.io/chatgpt-tips-watch/</id>
+  <updated>2026-11-19T21:52:34-07:00</updated>
+  <author><name>ChatGPT Tips Watch</name></author>
+  <entry>
+    <title>ChatGPT features › Dots: Dots are expanding to Plus and Business</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123557171321561133"/>
+    <link rel="related" href="https://x.com/dkundel/status/2123613858208337954"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123557171321561133</id>
+    <published>2026-11-19T23:17:19Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@dkundel</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Dots are expanding to Plus and Business: Dots are being tested with a small number of ChatGPT Plus users, and rolling out to all ChatGPT Business Standard users.
+• Try the new ChatGPT mobile design: A new ChatGPT mobile experience is rolling out to Pro users who have (or can create) a dot: the dot gets its own tab, and you can pin Codex, Projects, Images and more to the tab bar. Turn it on or off in Settings &gt; New ChatGPT Design.
+• Pin Codex in the new mobile app: In the new ChatGPT mobile experience, pin Codex to the tab bar for quick access. (Source: https://x.com/dkundel/status/2123613858208337954)</summary>
+  </entry>
+  <entry>
+    <title>OpenAI API › Responses API &amp; reasoning: Reasoning items are tied to history</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123566018866151579"/>
+    <link rel="related" href="https://x.com/OpenAIDevs/status/2123566018866151579"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123566018866151579</id>
+    <published>2026-11-19T23:56:07Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@OpenAIDevs</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Reasoning items are tied to history: With GPT-6.2 in the Responses API, each reasoning item is tied to the conversation history before it, so agents can build on earlier reasoning with fewer tokens and more cache hits. Editing an earlier message makes the API drop the reasoning that follows the change. (Source: https://x.com/OpenAIDevs/status/2123566018866151579)</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT features › Plugins &amp; work solutions: Use Health across desktop, dots and Sites</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123545961381216325"/>
+    <link rel="related" href="https://x.com/ChatGPT/status/2123545961381216325"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123545961381216325</id>
+    <published>2026-11-19T22:36:25Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@ChatGPT</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Use Health across desktop, dots and Sites: With connected health data, ChatGPT can analyze sleep and workout patterns on desktop, your dot can suggest another workout time when a meeting gets in the way, you can build a Site to track marathon training, and Android Health Connect brings in sleep, activity and workouts. Health is available in the U.S. on desktop and Android for Free, Go, Plus and Pro; Sites need Plus or Pro, and dots need Pro. (Source: https://x.com/ChatGPT/status/2123545961381216325)</summary>
+  </entry>
+  <entry>
+    <title>OpenAI API › Realtime &amp; voice: GPT-Live-1.1 standby option</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123506733524136446"/>
+    <link rel="related" href="https://x.com/OpenAIDevs/status/2123506733524136446"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123506733524136446</id>
+    <published>2026-11-19T20:00:32Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@OpenAIDevs</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• GPT-Live-1.1 standby option: GPT-Live-1.1 in the API speaks with more natural, consistent accents across languages, completes tasks more reliably, and has a new standby option for lower idle costs. (Source: https://x.com/OpenAIDevs/status/2123506733524136446)</summary>
+  </entry>
+  <entry>
+    <title>OpenAI API › Caching &amp; cost: Instructions-field caching bug on 6.2</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123487048250327497"/>
+    <link rel="related" href="https://x.com/steipete/status/2123487048250327497"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123487048250327497</id>
+    <published>2026-11-19T18:42:19Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@steipete</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Instructions-field caching bug on 6.2: A reported bug (Codex issue #62312): on GPT-6.2 Astra and Sol, content in the top-level `instructions` field of a Responses API request isn&#x27;t cached, even though diagnostics report a cache hit; one report saw cache hit rates fall from 97.4% to 46.4%. Workaround: put the system prompt in a leading developer message in `input`. He landed a fix in OpenClaw&#x27;s embedded harness. (Source: https://x.com/steipete/status/2123487048250327497)</summary>
+  </entry>
+  <entry>
+    <title>Codex › Large builds &amp; agent fleets: OpenAI&#x27;s Performance Factory pattern</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123471880292299171"/>
+    <link rel="related" href="https://x.com/OpenAIDevs/status/2123471880292299171"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123471880292299171</id>
+    <published>2026-11-19T17:42:03Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@OpenAIDevs</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• OpenAI&#x27;s Performance Factory pattern: OpenAI built a Codex-powered Performance Factory that coordinates agents to investigate performance regressions, propose fixes for engineers to review, and check whether those fixes work in production. (Source: https://x.com/OpenAIDevs/status/2123471880292299171)</summary>
+  </entry>
+  <entry>
+    <title>Codex › Sandbox &amp; permissions: Keep network access separate from repo edits</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123129469447880885"/>
+    <link rel="related" href="https://x.com/OpenAIDevs/status/2123129469447880885"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123129469447880885</id>
+    <published>2026-11-18T19:01:26Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@OpenAIDevs</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Keep network access separate from repo edits: A command that edits your repo shouldn&#x27;t automatically get network access. The Codex sandbox runs commands in your existing environment within the filesystem and network limits you control.
+• Inside the Codex sandbox: OpenAI&#x27;s write-up covers the tradeoffs behind Codex&#x27;s sandbox defaults, how the harness uses the sandbox to run commands, how users and enterprises can tailor its permissions, how developers can reuse the sandbox in their own tools, and how it is enforced on macOS, Linux and Windows. (Source: https://x.com/OpenAIDevs/status/2123129469447880885)</summary>
+  </entry>
+  <entry>
+    <title>OpenAI API › Caching &amp; cost: Background mode discounts for work that can wait</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123188195202617408"/>
+    <link rel="related" href="https://x.com/OpenAIDevs/status/2123188195202617408"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123188195202617408</id>
+    <published>2026-11-18T22:54:47Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@OpenAIDevs</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Background mode discounts for work that can wait: For single- or multi-turn workflows that can wait, Responses API background mode lets you pick a 2h or 8h target for the first response and save up to 40% per token versus Standard on GPT-6.2 Astra or Sol (public beta). (Source: https://x.com/OpenAIDevs/status/2123188195202617408)</summary>
+  </entry>
+  <entry>
+    <title>Codex › Feedback &amp; app: Report code-quality problems with /feedback</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123161169976348923"/>
+    <link rel="related" href="https://x.com/pvncher/status/2123161169976348923"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123161169976348923</id>
+    <published>2026-11-18T21:07:24Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@pvncher</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Report code-quality problems with /feedback: If you spot code-quality issues in GPT-written code (for example defensive &quot;just in case&quot; fallbacks that hide bugs), run `/feedback` and add a comment explaining what is wrong with it. (Source: https://x.com/pvncher/status/2123161169976348923)</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT features › Plugins &amp; work solutions: ChatGPT for Accounting plugins</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123159134963196357"/>
+    <link rel="related" href="https://x.com/ChatGPT/status/2123159134963196357"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123159134963196357</id>
+    <published>2026-11-18T20:59:18Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@ChatGPT</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• ChatGPT for Accounting plugins: The Accounting plugin and partner plugins help with month-end reports, bank reconciliation, data entry and audit prep, working with tools like QuickBooks, Xero, Oracle NetSuite, BILL, FreshBooks, Rillet and Campfire. (Source: https://x.com/ChatGPT/status/2123159134963196357)</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT features › Mobile &amp; voice: Live Dictation</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123114715257946334"/>
+    <link rel="related" href="https://x.com/ChatGPT/status/2123114715257946334"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123114715257946334</id>
+    <published>2026-11-18T18:02:48Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@ChatGPT</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Live Dictation: With Live Dictation, ChatGPT turns your speech into text as you talk, so you spend less time waiting for a message to finish transcribing. (Source: https://x.com/ChatGPT/status/2123114715257946334)</summary>
+  </entry>
+  <entry>
+    <title>Codex › Prompting &amp; reasoning effort: Model stopping early? Raise reasoning effort first</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123041809605775381"/>
+    <link rel="related" href="https://x.com/pvncher/status/2123041809605775381"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123041809605775381</id>
+    <published>2026-11-18T13:13:06Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@pvncher</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Model stopping early? Raise reasoning effort first: For long-horizon work with GPT-6.2 Sol and Astra: if the model stops early, try increasing the reasoning effort before reaching for goal mode. Max effort isn&#x27;t normally recommended, but it&#x27;s worth trying when you want the model to work for hours. (Source: https://x.com/pvncher/status/2123041809605775381)</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT features › Plugins &amp; work solutions: ChatGPT for Sales plugins</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122818162995634504"/>
+    <link rel="related" href="https://x.com/ChatGPT/status/2122818162995634504"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122818162995634504</id>
+    <published>2026-11-17T22:24:24Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@ChatGPT</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• ChatGPT for Sales plugins: ChatGPT for Sales combines a new Sales plugin with 30+ new and enhanced partner plugins, so ChatGPT can use your sales tools and customer context.
+• What the Sales plugin is for: The Sales plugin includes dedicated skills for sellers, and partner plugins pull in information from the tools your team already uses to prepare for calls, tailor proposals and follow up faster. (Source: https://x.com/ChatGPT/status/2122818162995634504)</summary>
+  </entry>
+  <entry>
+    <title>Codex › Plugins &amp; design workflows: Pair Astra with gpt-image-2.6 for slides</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122932989336363397"/>
+    <link rel="related" href="https://x.com/gabrielchua/status/2122932989336363397"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122932989336363397</id>
+    <published>2026-11-18T06:00:41Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@gabrielchua</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Pair Astra with gpt-image-2.6 for slides: Astra&#x27;s slide typography and layouts feel more intentional, especially when you pair it with `gpt-image-2.6`. (Source: https://x.com/gabrielchua/status/2122932989336363397)</summary>
+  </entry>
+  <entry>
+    <title>Models › Choosing Astra vs Sol: Give a new model a few varied tasks</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122918889390784765"/>
+    <link rel="related" href="https://x.com/reach_vb/status/2122918889390784765"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122918889390784765</id>
+    <published>2026-11-18T05:04:39Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@reach_vb</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Give a new model a few varied tasks: Spend time with 6.2 Astra and Sol on a variety of tasks; like any new model it takes some getting used to. He has delegated many of his existing workflows to it. (Source: https://x.com/reach_vb/status/2122918889390784765)</summary>
+  </entry>
+  <entry>
+    <title>Codex › Plugins &amp; design workflows: Richer SVGs with GPT Image 2.6</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122858372588536241"/>
+    <link rel="related" href="https://x.com/gabrielchua/status/2122858372588536241"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122858372588536241</id>
+    <published>2026-11-18T01:04:11Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@gabrielchua</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Richer SVGs with GPT Image 2.6: When Astra 6.2 uses GPT Image 2.6, it can produce detailed SVGs (example: an otter riding a bicycle in Japan at 291 KB). (Source: https://x.com/gabrielchua/status/2122858372588536241)</summary>
+  </entry>
+  <entry>
+    <title>Codex › Prompting &amp; reasoning effort: Read the Codex prompting guide, not the API guide</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122858340308996430"/>
+    <link rel="related" href="https://x.com/pvncher/status/2122858340308996430"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122858340308996430</id>
+    <published>2026-11-18T01:04:03Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@pvncher</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Read the Codex prompting guide, not the API guide: The API prompt guide&#x27;s advice is already built into Codex&#x27;s system prompt. For best practices on working with GPT-6.2 Astra and Sol inside Codex, read the Codex-specific guide instead. (Source: https://x.com/pvncher/status/2122858340308996430)</summary>
+  </entry>
+  <entry>
+    <title>Models › Reviews &amp; evaluations: Every&#x27;s vibe check of GPT-6.2 Astra and Sol</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122754729012777052"/>
+    <link rel="related" href="https://x.com/danshipper/status/2122754729012777052"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122754729012777052</id>
+    <published>2026-11-17T18:12:20Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@danshipper</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Every&#x27;s early read on Astra 6.2: Every&#x27;s testing found Astra 6.2 a step back on writing (very concise, sometimes too short), similar to Astra 6 on coding benchmarks but prone to stopping too early on real end-to-end builds, and good at default design but with a noticeable &quot;house style&quot;.
+• Full Every vibe check: Every&#x27;s full ratings for Astra and Sol 6.2 are in its vibe check. (Source: https://x.com/danshipper/status/2122754729012777052)</summary>
+  </entry>
+  <entry>
+    <title>OpenAI API › Usage &amp; monitoring: Investigate usage in the Analytics dashboard</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122824859491205152"/>
+    <link rel="related" href="https://x.com/OpenAIDevs/status/2122824859491205152"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122824859491205152</id>
+    <published>2026-11-17T22:51:01Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@OpenAIDevs</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Investigate usage in the Analytics dashboard: The API usage dashboard&#x27;s Analytics view now tracks usage and spend, shows rate limits and rate-limited requests, and lets you explore errors by model, project or API key. (Source: https://x.com/OpenAIDevs/status/2122824859491205152)</summary>
+  </entry>
+  <entry>
+    <title>Models › Reviews &amp; evaluations: Same prompt, Astra vs Sol</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122822310428279136"/>
+    <link rel="related" href="https://x.com/simonw/status/2122822310428279136"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122822310428279136</id>
+    <published>2026-11-17T22:40:53Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@simonw</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Same prompt, Astra vs Sol: Simon Willison ran the same three.js prompt (a mech stomping around New York using OpenStreetMap data) on GPT-6.2 Astra and Sol and wrote up the results. (Source: https://x.com/simonw/status/2122822310428279136)</summary>
+  </entry>
+  <entry>
+    <title>Codex › Plugins &amp; design workflows: Saturating Pelican Bench with GPT 6.2 Astra</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122775415999623663"/>
+    <link rel="related" href="https://x.com/pvncher/status/2122775415999623663"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122775415999623663</id>
+    <published>2026-11-17T19:34:33Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@pvncher</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• SVG &amp; 3D Design plugin for Codex: The SVG &amp; 3D Design plugin for Codex guides Astra to ask GPT Image for a reference suited to the medium, refine it and use it as concept art, for anything from editable app icons to parametric CAD. For vector graphics, it has Sol and Astra generate references with details that convert well to curves and gradients in code. (Source: https://x.com/pvncher/status/2122775415999623663)</summary>
+  </entry>
+  <entry>
+    <title>Codex › Large builds &amp; agent fleets: Building a 1:1 Singapore with 100+ Codex threads</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122762679760883967"/>
+    <link rel="related" href="https://x.com/gabrielchua/status/2122762679760883967"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122762679760883967</id>
+    <published>2026-11-17T18:43:56Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@gabrielchua</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• How a 1:1 Singapore was built: A 1:1-scale Singapore (200,000+ building footprints, 160,000+ road segments, 120,000+ streetlights) took 100+ Astra Codex threads, 1,000+ subagents and over 100 hours of work.
+• Let a dot coordinate many Codex threads: His dot coordinated the 100+ GPT-6.2 Astra threads over the 100+ hours of the Singapore build. (Source: https://x.com/gabrielchua/status/2122762679760883967)</summary>
+  </entry>
+  <entry>
+    <title>Codex › Plugins &amp; design workflows: Guide 3D work with an image reference</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122755434758967623"/>
+    <link rel="related" href="https://x.com/pvncher/status/2122755434758967623"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122755434758967623</id>
+    <published>2026-11-17T18:15:09Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@pvncher</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Guide 3D work with an image reference: GPT-6.2 Astra is especially strong at 3D graphics when an image reference guides it; the demo runs in a desktop browser with WebGPU. (Source: https://x.com/pvncher/status/2122755434758967623)</summary>
+  </entry>
+  <entry>
+    <title>Models › Choosing Astra vs Sol: Sol as the day-to-day default</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122753991000133943"/>
+    <link rel="related" href="https://x.com/thsottiaux/status/2122753991000133943"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122753991000133943</id>
+    <published>2026-11-17T18:09:24Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@thsottiaux</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Sol as the day-to-day default: GPT-6.2 Sol is his go-to model for most day-to-day things, and Ultrafast now covers Sol on Pro 200 plans. (Source: https://x.com/thsottiaux/status/2122753991000133943)</summary>
+  </entry>
+  <entry>
+    <title>Models › Choosing Astra vs Sol: Astra for the hardest work, Sol for cost</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122751206900838904"/>
+    <link rel="related" href="https://x.com/reach_vb/status/2122751206900838904"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122751206900838904</id>
+    <published>2026-11-17T17:58:21Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@reach_vb</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Astra for the hardest work, Sol for cost: Use GPT-6.2 Astra for your hardest projects and Sol for strong results at a fraction of the cost: on FrontierCode 2.0, Sol nearly matches Astra on merge-ready changes to real codebases at about one-fifth the cost. API pricing per 1M tokens: Astra $8 input / $0.40 cached / $40 output; Sol $2 / $0.10 / $10. (Source: https://x.com/reach_vb/status/2122751206900838904)</summary>
+  </entry>
+  <entry>
+    <title>Models › Choosing Astra vs Sol: Where 6.2 is available, and Ultrafast</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122750135608528984"/>
+    <link rel="related" href="https://x.com/OpenAI/status/2122750135608528984"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122750135608528984</id>
+    <published>2026-11-17T17:54:05Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@OpenAI</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Where 6.2 is available, and Ultrafast: GPT-6.2 Astra and Sol are in ChatGPT Work and Codex for Plus, Pro, Enterprise and Edu. Pro 500 can use Ultrafast with either model; Pro 200 gets Ultrafast with Sol. In the API they are gpt-6.2-astra and gpt-6.2-sol, with Ultrafast available. (Source: https://x.com/OpenAI/status/2122750135608528984)</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT features › Dots: Your dot&#x27;s own email address (testing)</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122530589681291754"/>
+    <link rel="related" href="https://x.com/TheRealAdamG/status/2122530589681291754"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122530589681291754</id>
+    <published>2026-11-17T03:21:41Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@TheRealAdamG</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Your dot&#x27;s own email address (testing): Dots are getting their own email address (testing has started): cc your dot and ask it to &quot;find a time that works for everyone&quot;, or forward it a receipt and ask it to help negotiate a refund, without leaving your inbox. (Source: https://x.com/TheRealAdamG/status/2122530589681291754)</summary>
+  </entry>
+  <entry>
+    <title>Agents &amp; security › Sandboxing: The external sandbox pattern</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122500307557265651"/>
+    <link rel="related" href="https://x.com/simonw/status/2122500307557265651"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122500307557265651</id>
+    <published>2026-11-17T01:21:22Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@simonw</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• The external sandbox pattern: In the external sandbox pattern, the coding agent runs on your Mac but executes code inside a WebAssembly, QEMU or Apple Container sandbox. The write-up includes a demo for Codex (plus Claude Code and Pi). (Source: https://x.com/simonw/status/2122500307557265651)</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT features › Dots: Send your dot a reference photo to edit video remotely</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122417421327737077"/>
+    <link rel="related" href="https://x.com/dkundel/status/2122417421327737077"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2122417421327737077</id>
+    <published>2026-11-16T19:52:00Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@dkundel</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Send your dot a reference photo to edit video remotely: He sends an edited photo to his dot, and it color-grades and edits a video on his laptop at the other end of the country. (Source: https://x.com/dkundel/status/2122417421327737077)</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT features › Wallet &amp; payments: Let your dot pay with ChatGPT Wallet</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2121283151729496235"/>
+    <link rel="related" href="https://x.com/ChatGPT/status/2121283151729496235"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2121283151729496235</id>
+    <published>2026-11-13T16:44:49Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@ChatGPT</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Let your dot pay with ChatGPT Wallet: Your dot can complete purchases for you, with your approval. With ChatGPT Wallet, agents pay without access to your actual card details and every purchase requires a security check. Rolling out to dots for Pro subscribers in the US. (Source: https://x.com/ChatGPT/status/2121283151729496235)</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT features › Plugins &amp; work solutions: Sites and the future of web experiences (OpenAI DevDay talk)</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-yt-QRm7VNMnurA"/>
+    <link rel="related" href="https://www.youtube.com/watch?v=QRm7VNMnurA"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-yt-QRm7VNMnurA</id>
+    <published>2026-11-13T00:00:00Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@kagigz</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>DevDay talk by @kagigz and @JonathanAbrams, who created ChatGPT Sites, on Sites and the future of web experiences. Summary coming once the video has been watched. (Source: https://www.youtube.com/watch?v=QRm7VNMnurA)</summary>
+  </entry>
+  <entry>
+    <title>Agents &amp; security › Cyber tools: Daybreak Defense Factory</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2120984789767365069"/>
+    <link rel="related" href="https://x.com/TheRealAdamG/status/2120984789767365069"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2120984789767365069</id>
+    <published>2026-11-12T20:59:14Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@TheRealAdamG</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Daybreak Defense Factory: Daybreak Defense Factory scans code in a connected GitHub repository and shares the findings with your team. (Source: https://x.com/TheRealAdamG/status/2120984789767365069)</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT features › Dots: Give your dot custom instructions</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2120970988796170275"/>
+    <link rel="related" href="https://x.com/ChatGPT/status/2120970988796170275"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2120970988796170275</id>
+    <published>2026-11-12T20:04:24Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@ChatGPT</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Give your dot custom instructions: Dots now follow custom instructions. Tell your dot in the thread how to behave or which actions need your go-ahead (for example &quot;always talk in lowercase&quot; or &quot;Show me a draft before sending any emails&quot;), or set instructions and rules in Customize &gt; Behavior on mobile or from your dot&#x27;s menu on web and desktop. (Source: https://x.com/ChatGPT/status/2120970988796170275)</summary>
+  </entry>
+  <entry>
+    <title>Agents &amp; security › Persistent agents: Manage persistent agents like contractors</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2120962631788114377"/>
+    <link rel="related" href="https://x.com/kevins8/status/2120962631788114377"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2120962631788114377</id>
+    <published>2026-11-12T19:31:11Z</published>
+    <updated>2026-11-19T21:52:34-07:00</updated>
+    <author><name>@kevins8</name></author>
+    <category term="edition-2026-11-19"/>
+    <summary>• Manage persistent agents like contractors: Persistent agents like OpenClaw or dots act more like contractors than SaaS: they take proactive actions in the background and can take misaligned actions or write code with unintended consequences. OpenAI published the practices it uses to manage fleets of them internally. (Source: https://x.com/kevins8/status/2120962631788114377)</summary>
+  </entry>
+</feed>

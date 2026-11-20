@@ -1,0 +1,30 @@
+{
+ "Codex": [
+  {"name": "Prompting & reasoning effort", "keywords": ["reasoning effort", "prompt", "guide", "goal mode", "stop early"]},
+  {"name": "Sandbox & permissions", "keywords": ["sandbox", "permission", "network"]},
+  {"name": "Plugins & design workflows", "keywords": ["plugin", "svg", "3d", "image reference", "slides"]},
+  {"name": "Large builds & agent fleets", "keywords": ["threads", "subagents", "factory", "regression"]},
+  {"name": "Feedback & app", "keywords": ["/feedback", "pin", "mobile"]}
+ ],
+ "ChatGPT features": [
+  {"name": "Dots", "keywords": ["dot", "custom instructions", "email"]},
+  {"name": "Mobile & voice", "keywords": ["mobile", "dictation", "tab bar", "voice"]},
+  {"name": "Plugins & work solutions", "keywords": ["plugin", "sales", "accounting", "health"]},
+  {"name": "Wallet & payments", "keywords": ["wallet", "purchase", "pay"]}
+ ],
+ "Models": [
+  {"name": "Choosing Astra vs Sol", "keywords": ["astra", "sol", "ultrafast", "pricing", "go-to"]},
+  {"name": "Reviews & evaluations", "keywords": ["review", "vibe check", "rating", "compare"]}
+ ],
+ "OpenAI API": [
+  {"name": "Responses API & reasoning", "keywords": ["responses api", "reasoning item", "background mode"]},
+  {"name": "Caching & cost", "keywords": ["cache", "cached", "cost", "discount"]},
+  {"name": "Realtime & voice", "keywords": ["gpt-live", "voice", "accent"]},
+  {"name": "Usage & monitoring", "keywords": ["dashboard", "usage", "rate limit"]}
+ ],
+ "Agents & security": [
+  {"name": "Persistent agents", "keywords": ["persistent", "openclaw", "fleet", "contractor"]},
+  {"name": "Sandboxing", "keywords": ["sandbox", "webassembly", "qemu"]},
+  {"name": "Cyber tools", "keywords": ["daybreak", "cyber", "pen test", "defense factory"]}
+ ]
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cfmayer.github.io/chatgpt-tips-watch/sitemap.xml
