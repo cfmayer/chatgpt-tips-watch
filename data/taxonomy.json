@@ -44,6 +44,15 @@
     "pin",
     "mobile"
    ]
+  },
+  {
+   "name": "Ultrafast & fast iteration",
+   "keywords": [
+    "ultrafast",
+    "iteration",
+    "hot reload",
+    "dictation"
+   ]
   }
  ],
  "ChatGPT features": [
@@ -88,6 +97,15 @@
     "webmcp",
     "annotation mode",
     "publish"
+   ]
+  },
+  {
+   "name": "Space",
+   "keywords": [
+    "space",
+    "pages",
+    "slides",
+    "collaborate"
    ]
   }
  ],

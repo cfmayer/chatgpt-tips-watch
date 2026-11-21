@@ -5,8 +5,65 @@
   <link rel="self" type="application/atom+xml" href="https://cfmayer.github.io/chatgpt-tips-watch/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/"/>
   <id>https://cfmayer.github.io/chatgpt-tips-watch/</id>
-  <updated>2026-11-20T05:10:06-07:00</updated>
+  <updated>2026-11-21T05:08:29-07:00</updated>
   <author><name>ChatGPT Tips Watch</name></author>
+  <entry>
+    <title>Agents &amp; security › Cyber tools: Agents API now supports Daybreak access</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123954392751612126"/>
+    <link rel="related" href="https://x.com/TheRealAdamG/status/2123954392751612126"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123954392751612126</id>
+    <published>2026-11-21T01:39:23Z</published>
+    <updated>2026-11-21T05:08:29-07:00</updated>
+    <author><name>@TheRealAdamG</name></author>
+    <category term="edition-2026-11-21"/>
+    <summary>• Agents API now supports Daybreak access: The Agents API supports Daybreak access, making it easier to build long-running security agents. Early use cases listed: investigating suspicious activity, implementing new security updates, verifying security fixes, and triaging investigations for human review. (Source: https://x.com/TheRealAdamG/status/2123954392751612126)</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT features › Mobile &amp; voice: Calling a dot from Apple CarPlay (demo)</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123924316110966824"/>
+    <link rel="related" href="https://x.com/romainhuet/status/2123924316110966824"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123924316110966824</id>
+    <published>2026-11-20T23:39:52Z</published>
+    <updated>2026-11-21T05:08:29-07:00</updated>
+    <author><name>@romainhuet</name></author>
+    <category term="edition-2026-11-21"/>
+    <summary>Romain Huet calls his dot from CarPlay while driving, asks about an upcoming talk, and has it prepare a docs/demo update as a draft PR.
+• 0:09 Call your dot from Apple CarPlay: You can call your dot from Apple CarPlay and work with it by voice while driving. In the demo Romain asks it about tomorrow&#x27;s talk (it pulls up the calendar invite) and has it update a demo and docs, test them, and open one draft PR tagging two colleagues for review. (Source: https://x.com/romainhuet/status/2123924316110966824)</summary>
+  </entry>
+  <entry>
+    <title>Codex › Ultrafast &amp; fast iteration: How I stay in the flow with Ultrafast (Dominik Kundel)</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123868868963889153"/>
+    <link rel="related" href="https://x.com/dkundel/status/2123868868963889153"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123868868963889153</id>
+    <published>2026-11-20T19:59:32Z</published>
+    <updated>2026-11-21T05:08:29-07:00</updated>
+    <author><name>@dkundel</name></author>
+    <category term="edition-2026-11-21"/>
+    <summary>• Iterate on UI with Ultrafast instead of one long task: When you don&#x27;t yet know exactly what a UI should look like, start with a rough direction, get something on screen fast, and react to what Codex builds with small rounds of feedback. With Ultrafast each change often takes only a couple of seconds, so you stay in the zone instead of waiting on a long high-reasoning task.
+• Set up the fast loop: hot reload + in-app browser: Run a dev server with hot module reloading so changes show up as soon as Codex makes them, and keep the site open in the in-app browser next to the chat so you see results while you prompt.
+• Short tasks, annotations and dictation: Send one small piece of feedback at a time. Use annotations to point at the exact element you want changed instead of describing where it is, and use dictation or voice mode to queue several small tasks while you keep looking at the result. A keyboard shortcut for dictation (or a Codex Micro) makes queuing feedback while scrolling a page quick.
+• Start at Light/Low reasoning for quick edits: Most quick UI instructions are easy, so start with Light or Low reasoning. For something more nuanced, like designing an animation, switch to High, then go back to Low.
+• Keep verification out of the quick loop: For small visual edits, tell Codex to focus on the code changes while you check the result in the browser yourself. Once you&#x27;re happy, ask it to write the relevant tests and run the additional checks.
+• Use the same loop for slides, documents and spreadsheets: Instead of asking for a full deck, go one slide at a time and give feedback; for documents, give feedback passage by passage as you read. Ultrafast suits tasks that rely mostly on the model&#x27;s intelligence and need little validation between changes: slides, documents, spreadsheets, and computer-use tasks made of quick actions.
+• When Ultrafast helps less: Faster token generation doesn&#x27;t make the whole task 4.5× faster: if most of a turn is spent waiting on a build, test suite, compiler, other tool calls or image generation, the speedup is smaller. For well-defined tasks that need lots of experimentation and validation, or that you&#x27;re happy to leave running overnight, the extra speed matters less.
+• Try service_tier ultrafast where model time dominates: In the API, compare time spent waiting on the model versus waiting on tools. Good candidates: summaries and Q&amp;A over a document already in context, fast tool calls and computer use (e.g. form filling, ideally with a code mode that writes a script to fill several fields at once), and voice experiences as a backend model alongside GPT-Live-1. Set service_tier to ultrafast and measure time to result. For GPT-6.2 Astra and Sol the promotional rate is 3× Standard through February 28, 2027 (6× from March 1). (Source: https://x.com/dkundel/status/2123868868963889153)</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT features › Space: Space for Plus: quick guide (4 clips)</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123850912867471807"/>
+    <link rel="related" href="https://x.com/ChatGPT/status/2123850912867471807"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123850912867471807</id>
+    <published>2026-11-20T18:48:11Z</published>
+    <updated>2026-11-21T05:08:29-07:00</updated>
+    <author><name>@ChatGPT</name></author>
+    <category term="edition-2026-11-21"/>
+    <summary>Four short clips: scheduled tasks that keep a page updated, an interactive study guide reshaped via the chat sidebar, a one-prompt brand restyle, and sharing a page with a collaborator.
+• Space is on Plus, with mobile editing: Plus users can now use Space to collaborate with others alongside ChatGPT on interactive pages, slides and sites, and ChatGPT can keep them updated for you. Pages can now be edited on mobile.
+• 0:02 Restyle a whole page with one prompt: Open the floating prompt box over a page and ask for a page-wide restyle. The demo: &quot;@ChatGPT Make the guidelines feel like an extension of our new website. Use the same typography, colors, and imagery.&quot; turned a brand-guidelines page into the new theme in one step.
+• 0:07 See what keeps a page updated: the clock icon: In a Space page, click the clock icon in the top bar to open Scheduled tasks (&quot;ChatGPT can keep this page updated for you&quot;). The demo shows hourly tasks such as auto-updating a to-do list and refreshing a checklist from Slack.
+• 0:19 Mention a dot in the page chat to restructure a page: Use the page&#x27;s chat sidebar to ask for layout changes. The demo prompt: &quot;@Sara&#x27;s dot Remove all the long text (put it under in text) and make this more visual&quot;, which put an interactive chart up front with sliders below and moved the explanation under the visual.
+• 0:26 Share a page with specific people and roles: Click Share in the top right, add people by name, pick their access level (for example Viewer), then click Share. (Source: https://x.com/ChatGPT/status/2123850912867471807)</summary>
+  </entry>
   <entry>
     <title>ChatGPT features › Sites: Sites and the future of web experiences (OpenAI DevDay talk)</title>
     <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-yt-QRm7VNMnurA"/>
