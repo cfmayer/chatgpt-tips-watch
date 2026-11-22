@@ -5,8 +5,19 @@
   <link rel="self" type="application/atom+xml" href="https://cfmayer.github.io/chatgpt-tips-watch/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/"/>
   <id>https://cfmayer.github.io/chatgpt-tips-watch/</id>
-  <updated>2026-11-21T05:08:29-07:00</updated>
+  <updated>2026-11-22T05:13:11-07:00</updated>
   <author><name>ChatGPT Tips Watch</name></author>
+  <entry>
+    <title>ChatGPT features › Dots: See a transcript after a Dots call</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2124152224892985371"/>
+    <link rel="related" href="https://x.com/TheRealAdamG/status/2124152224892985371"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2124152224892985371</id>
+    <published>2026-11-21T14:45:29Z</published>
+    <updated>2026-11-22T05:13:11-07:00</updated>
+    <author><name>@TheRealAdamG</name></author>
+    <category term="edition-2026-11-22"/>
+    <summary>• See a transcript after a Dots call: When a Dots call ends, you can now see a transcript of the call. (Source: https://x.com/TheRealAdamG/status/2124152224892985371)</summary>
+  </entry>
   <entry>
     <title>Agents &amp; security › Cyber tools: Agents API now supports Daybreak access</title>
     <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2123954392751612126"/>
