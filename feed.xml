@@ -5,8 +5,19 @@
   <link rel="self" type="application/atom+xml" href="https://cfmayer.github.io/chatgpt-tips-watch/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/"/>
   <id>https://cfmayer.github.io/chatgpt-tips-watch/</id>
-  <updated>2026-11-22T05:13:11-07:00</updated>
+  <updated>2026-11-23T05:09:12-07:00</updated>
   <author><name>ChatGPT Tips Watch</name></author>
+  <entry>
+    <title>Codex › Prompting &amp; reasoning effort: Run GPT-6.2 models in Codex, or borrow its system prompt</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2124488871887134835"/>
+    <link rel="related" href="https://x.com/pvncher/status/2124488871887134835"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2124488871887134835</id>
+    <published>2026-11-22T13:03:12Z</published>
+    <updated>2026-11-23T05:09:12-07:00</updated>
+    <author><name>@pvncher</name></author>
+    <category term="edition-2026-11-23"/>
+    <summary>• Run GPT-6.2 models in Codex, or borrow its system prompt: GPT-6.2 models are tougher to steer through the system prompt, and the Codex team worked hard on that. For the best experience use them directly in Codex; if you run them in another harness such as pi, take passages from the Codex system prompt. (Source: https://x.com/pvncher/status/2124488871887134835)</summary>
+  </entry>
   <entry>
     <title>ChatGPT features › Dots: See a transcript after a Dots call</title>
     <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2124152224892985371"/>

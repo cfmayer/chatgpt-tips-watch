@@ -8,7 +8,7 @@
   "keep_rule": "ChatGPT and OpenAI-tooling",
   "scope_note": "Only ChatGPT and OpenAI tooling is covered here. Tips about Claude or other AI tools are left out, even when they come from the same accounts; a tip about a tool that works with several agents is included only when it names ChatGPT, Codex or an OpenAI product."
  },
- "last_run": "2026-11-22T05:13:11-07:00",
+ "last_run": "2026-11-23T05:09:12-07:00",
  "window": {
   "start": "2026-11-12",
   "end": "2026-11-19"
@@ -68,6 +68,14 @@
    "at": "2026-11-22T05:13:11-07:00",
    "edition": "2026-11-22",
    "window": "2026-11-21/2026-11-22",
+   "tips_added": 1,
+   "sources_added": 1,
+   "source_summaries_updated": 0
+  },
+  {
+   "at": "2026-11-23T05:09:12-07:00",
+   "edition": "2026-11-23",
+   "window": "2026-11-22/2026-11-23",
    "tips_added": 1,
    "sources_added": 1,
    "source_summaries_updated": 0
@@ -1504,6 +1512,30 @@
    "added_at": "2026-11-22T05:13:11-07:00",
    "edition": "2026-11-22",
    "source_id": "x-2124152224892985371"
+  },
+  {
+   "id": "x-2124488871887134835",
+   "posted_at": "2026-11-22T13:03:12Z",
+   "author": "pvncher",
+   "date": "2026-11-22",
+   "topic": "Codex",
+   "subcategory": "Prompting & reasoning effort",
+   "title": "Run GPT-6.2 models in Codex, or borrow its system prompt",
+   "tip": "GPT-6.2 models are tougher to steer through the system prompt, and the Codex team worked hard on that. For the best experience use them directly in Codex; if you run them in another harness such as pi, take passages from the Codex system prompt.",
+   "source_type": "post",
+   "tags": [
+    "gpt-6.2",
+    "system prompt",
+    "harness",
+    "pi"
+   ],
+   "source_url": "https://x.com/pvncher/status/2124488871887134835",
+   "related_urls": [
+    "https://x.com/pvncher/status/2124487842852131199"
+   ],
+   "added_at": "2026-11-23T05:09:12-07:00",
+   "edition": "2026-11-23",
+   "source_id": "x-2124488871887134835"
   }
  ],
  "sources": [
@@ -1930,6 +1962,16 @@
    "date": "2026-11-21",
    "added_at": "2026-11-22T05:13:11-07:00",
    "edition": "2026-11-22"
+  },
+  {
+   "id": "x-2124488871887134835",
+   "type": "post",
+   "title": null,
+   "author": "pvncher",
+   "url": "https://x.com/pvncher/status/2124488871887134835",
+   "date": "2026-11-22",
+   "added_at": "2026-11-23T05:09:12-07:00",
+   "edition": "2026-11-23"
   }
  ],
  "schema_version": 2
