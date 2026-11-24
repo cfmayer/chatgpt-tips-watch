@@ -5,8 +5,59 @@
   <link rel="self" type="application/atom+xml" href="https://cfmayer.github.io/chatgpt-tips-watch/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/"/>
   <id>https://cfmayer.github.io/chatgpt-tips-watch/</id>
-  <updated>2026-11-23T05:09:12-07:00</updated>
+  <updated>2026-11-24T05:05:31-07:00</updated>
   <author><name>ChatGPT Tips Watch</name></author>
+  <entry>
+    <title>Models › Deprecations &amp; availability: GPT-5.6 retires Dec 23, except in Daybreak Blue</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2125077725333369038"/>
+    <link rel="related" href="https://x.com/TheRealAdamG/status/2125077725333369038"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2125077725333369038</id>
+    <published>2026-11-24T04:03:06Z</published>
+    <updated>2026-11-24T05:05:31-07:00</updated>
+    <author><name>@TheRealAdamG</name></author>
+    <category term="edition-2026-11-24"/>
+    <summary>• GPT-5.6 retires Dec 23, except in Daybreak Blue: On December 23, GPT-5.6 Sol is deprecated in Chat, and GPT-5.6 Sol and Terra in Work and Codex. GPT-5.6 Sol stays available after that date through Daybreak Blue, where OpenAI is also adding more models, such as GPT-6 Astra in alpha. (Source: https://x.com/TheRealAdamG/status/2125077725333369038)</summary>
+  </entry>
+  <entry>
+    <title>Models › 3D &amp; game workflows: Building Mont-Saint-Michel with Astra inside Unreal Engine</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2125039913699615087"/>
+    <link rel="related" href="https://x.com/pvncher/status/2125039913699615087"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2125039913699615087</id>
+    <published>2026-11-24T01:32:51Z</published>
+    <updated>2026-11-24T05:05:31-07:00</updated>
+    <author><name>@pvncher</name></author>
+    <category term="edition-2026-11-24"/>
+    <summary>• Have Astra build editable tools, not finished scenes: Instead of having Astra generate whole scenes (USDA files or full Blender models), use it to build procedural tools inside the engine: here, PCG graphs and supporting Blueprints for roads, platforms, stairs, buildings and walls in Unreal Engine. You can then reshape a walkway or raise a terrace by hand and play the change right away, without another prompt or import pass.
+• Iterate on a vector map, then let the tools build it: Have Astra turn a reference into spatial rules (roads winding uphill, buildings on terraces, stairs linking heights) and draw a vector map of the layout. Iterating on that map is much faster than editing the complex procedural setup directly; the same tool collection then rebuilds the layout with terrain and connections still editable.
+• Ask Astra for more than you think it can do: The author&#x27;s parting advice: he was at first not demanding enough of Astra and now relies on it more and more for technical work and problem-solving, including complex procedural materials. TL;DR: give it more to do than you think it can. (Source: https://x.com/pvncher/status/2125039913699615087)</summary>
+  </entry>
+  <entry>
+    <title>Models › Choosing Astra vs Sol: GPT-6.2 Sol in the Chat tab</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2124942186425069836"/>
+    <link rel="related" href="https://x.com/ChatGPT/status/2124942186425069836"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2124942186425069836</id>
+    <published>2026-11-23T19:04:31Z</published>
+    <updated>2026-11-24T05:05:31-07:00</updated>
+    <author><name>@ChatGPT</name></author>
+    <category term="edition-2026-11-24"/>
+    <summary>Promo clip: ChatGPT reads a photo of a parking sign, sets a reminder to move the car, sends it as a notification, and shows a map of parking options. No how-to steps.
+• Give the new Chat-tab Sol detailed instructions: The version of GPT-6.2 Sol rolling out in the Chat tab is tuned for everyday conversation and handles complex requests much better, especially when you give it detailed instructions or ask it to find information online. (Source: https://x.com/ChatGPT/status/2124942186425069836)</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT features › Dots: Dots improvements recap</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2124862749247189124"/>
+    <link rel="related" href="https://x.com/_samirism/status/2124862749247189124"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2124862749247189124</id>
+    <published>2026-11-23T13:48:52Z</published>
+    <updated>2026-11-24T05:05:31-07:00</updated>
+    <author><name>@_samirism</name></author>
+    <category term="edition-2026-11-24"/>
+    <summary>Screen recording of the ChatGPT iOS app: tapping the center dot icon in the bottom bar opens the dot onboarding, then the dot chat, which offers to connect Gmail.
+• Connect your dot to Apple Health or medical records: Through Health, your dot can connect to your Apple Health data or medical records, so it can do things like adjust your race training or remind you to book a physical.
+• Turn on travel mode when abroad: Dots now have a travel mode, so you can keep using your dot when you&#x27;re abroad.
+• Share photos to your dot from Google Photos (Android): On Android you can share photos straight from Google Photos to your dot. The same update improved cloud computer stability and made messages load faster when you open your dot.
+• 0:01 Open your dot from the new app home: In the latest ChatGPT app your dot has its own home: tap the center icon in the bottom bar to open it, then connect apps such as Gmail from the cards in the dot chat. Asked where to find it, @_samirism pointed to Settings &gt; New ChatGPT design. (Source: https://x.com/_samirism/status/2124862749247189124)</summary>
+  </entry>
   <entry>
     <title>Codex › Prompting &amp; reasoning effort: Run GPT-6.2 models in Codex, or borrow its system prompt</title>
     <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2124488871887134835"/>

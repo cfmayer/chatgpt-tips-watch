@@ -8,7 +8,7 @@
   "keep_rule": "ChatGPT and OpenAI-tooling",
   "scope_note": "Only ChatGPT and OpenAI tooling is covered here. Tips about Claude or other AI tools are left out, even when they come from the same accounts; a tip about a tool that works with several agents is included only when it names ChatGPT, Codex or an OpenAI product."
  },
- "last_run": "2026-11-23T05:09:12-07:00",
+ "last_run": "2026-11-24T05:05:31-07:00",
  "window": {
   "start": "2026-11-12",
   "end": "2026-11-19"
@@ -78,6 +78,14 @@
    "window": "2026-11-22/2026-11-23",
    "tips_added": 1,
    "sources_added": 1,
+   "source_summaries_updated": 0
+  },
+  {
+   "at": "2026-11-24T05:05:31-07:00",
+   "edition": "2026-11-24",
+   "window": "2026-11-23/2026-11-24",
+   "tips_added": 9,
+   "sources_added": 4,
    "source_summaries_updated": 0
   }
  ],
@@ -1536,6 +1544,208 @@
    "added_at": "2026-11-23T05:09:12-07:00",
    "edition": "2026-11-23",
    "source_id": "x-2124488871887134835"
+  },
+  {
+   "id": "x-2124862749247189124",
+   "posted_at": "2026-11-23T13:48:52Z",
+   "author": "_samirism",
+   "date": "2026-11-23",
+   "topic": "ChatGPT features",
+   "subcategory": "Dots",
+   "title": "Open your dot from the new app home",
+   "tip": "In the latest ChatGPT app your dot has its own home: tap the center icon in the bottom bar to open it, then connect apps such as Gmail from the cards in the dot chat. Asked where to find it, @_samirism pointed to Settings > New ChatGPT design.",
+   "source_type": "video",
+   "tags": [
+    "dots",
+    "app",
+    "settings",
+    "video"
+   ],
+   "source_url": "https://x.com/_samirism/status/2124862749247189124",
+   "video_timestamp": "0:01",
+   "related_urls": [
+    "https://x.com/_samirism/status/2124879917305278908"
+   ],
+   "source_id": "x-2124862749247189124",
+   "added_at": "2026-11-24T05:05:31-07:00",
+   "edition": "2026-11-24"
+  },
+  {
+   "id": "x-2124862753714450859",
+   "posted_at": "2026-11-23T13:48:53Z",
+   "author": "_samirism",
+   "date": "2026-11-23",
+   "topic": "ChatGPT features",
+   "subcategory": "Dots",
+   "title": "Connect your dot to Apple Health or medical records",
+   "tip": "Through Health, your dot can connect to your Apple Health data or medical records, so it can do things like adjust your race training or remind you to book a physical.",
+   "source_type": "post",
+   "tags": [
+    "dots",
+    "health",
+    "apple health"
+   ],
+   "source_url": "https://x.com/_samirism/status/2124862753714450859",
+   "source_id": "x-2124862749247189124",
+   "added_at": "2026-11-24T05:05:31-07:00",
+   "edition": "2026-11-24"
+  },
+  {
+   "id": "x-2124862756075524491",
+   "posted_at": "2026-11-23T13:48:53Z",
+   "author": "_samirism",
+   "date": "2026-11-23",
+   "topic": "ChatGPT features",
+   "subcategory": "Dots",
+   "title": "Turn on travel mode when abroad",
+   "tip": "Dots now have a travel mode, so you can keep using your dot when you're abroad.",
+   "source_type": "post",
+   "tags": [
+    "dots",
+    "travel"
+   ],
+   "source_url": "https://x.com/_samirism/status/2124862756075524491",
+   "source_id": "x-2124862749247189124",
+   "added_at": "2026-11-24T05:05:31-07:00",
+   "edition": "2026-11-24"
+  },
+  {
+   "id": "x-2124862757430260053",
+   "posted_at": "2026-11-23T13:48:54Z",
+   "author": "_samirism",
+   "date": "2026-11-23",
+   "topic": "ChatGPT features",
+   "subcategory": "Dots",
+   "title": "Share photos to your dot from Google Photos (Android)",
+   "tip": "On Android you can share photos straight from Google Photos to your dot. The same update improved cloud computer stability and made messages load faster when you open your dot.",
+   "source_type": "post",
+   "tags": [
+    "dots",
+    "android",
+    "google photos"
+   ],
+   "source_url": "https://x.com/_samirism/status/2124862757430260053",
+   "source_id": "x-2124862749247189124",
+   "added_at": "2026-11-24T05:05:31-07:00",
+   "edition": "2026-11-24"
+  },
+  {
+   "id": "x-2124942186425069836",
+   "posted_at": "2026-11-23T19:04:31Z",
+   "author": "ChatGPT",
+   "date": "2026-11-23",
+   "topic": "Models",
+   "subcategory": "Choosing Astra vs Sol",
+   "title": "Give the new Chat-tab Sol detailed instructions",
+   "tip": "The version of GPT-6.2 Sol rolling out in the Chat tab is tuned for everyday conversation and handles complex requests much better, especially when you give it detailed instructions or ask it to find information online.",
+   "source_type": "video",
+   "tags": [
+    "sol",
+    "gpt-6.2",
+    "chat",
+    "instructions"
+   ],
+   "source_url": "https://x.com/ChatGPT/status/2124942186425069836",
+   "added_at": "2026-11-24T05:05:31-07:00",
+   "edition": "2026-11-24",
+   "source_id": "x-2124942186425069836"
+  },
+  {
+   "id": "x-2125077725333369038",
+   "posted_at": "2026-11-24T04:03:06Z",
+   "author": "TheRealAdamG",
+   "date": "2026-11-23",
+   "topic": "Models",
+   "subcategory": "Deprecations & availability",
+   "title": "GPT-5.6 retires Dec 23, except in Daybreak Blue",
+   "tip": "On December 23, GPT-5.6 Sol is deprecated in Chat, and GPT-5.6 Sol and Terra in Work and Codex. GPT-5.6 Sol stays available after that date through Daybreak Blue, where OpenAI is also adding more models, such as GPT-6 Astra in alpha.",
+   "source_type": "post",
+   "tags": [
+    "gpt-5.6",
+    "deprecation",
+    "daybreak"
+   ],
+   "source_url": "https://x.com/TheRealAdamG/status/2125077725333369038",
+   "credit": "Quoting @fouadmatin",
+   "related_urls": [
+    "https://x.com/fouadmatin/status/2125044346416418831",
+    "https://x.com/ChatGPT/status/2124981905380569283"
+   ],
+   "added_at": "2026-11-24T05:05:31-07:00",
+   "edition": "2026-11-24",
+   "source_id": "x-2125077725333369038"
+  },
+  {
+   "id": "x-2125039913699615087",
+   "posted_at": "2026-11-24T01:32:51Z",
+   "author": "pvncher",
+   "date": "2026-11-23",
+   "topic": "Models",
+   "subcategory": "3D & game workflows",
+   "title": "Have Astra build editable tools, not finished scenes",
+   "tip": "Instead of having Astra generate whole scenes (USDA files or full Blender models), use it to build procedural tools inside the engine: here, PCG graphs and supporting Blueprints for roads, platforms, stairs, buildings and walls in Unreal Engine. You can then reshape a walkway or raise a terrace by hand and play the change right away, without another prompt or import pass.",
+   "source_type": "article",
+   "tags": [
+    "astra",
+    "unreal engine",
+    "pcg",
+    "procedural"
+   ],
+   "source_url": "https://x.com/pvncher/status/2125039913699615087",
+   "credit": "Article by Quentin Marmier (Epic Games) on @UnrealEngine, shared by @pvncher",
+   "related_urls": [
+    "https://x.com/UnrealEngine/status/2124911349775868138"
+   ],
+   "source_id": "x-2125039913699615087",
+   "added_at": "2026-11-24T05:05:31-07:00",
+   "edition": "2026-11-24"
+  },
+  {
+   "id": "x-2125039913699615087-2",
+   "posted_at": "2026-11-24T01:32:51Z",
+   "author": "pvncher",
+   "date": "2026-11-23",
+   "topic": "Models",
+   "subcategory": "3D & game workflows",
+   "title": "Iterate on a vector map, then let the tools build it",
+   "tip": "Have Astra turn a reference into spatial rules (roads winding uphill, buildings on terraces, stairs linking heights) and draw a vector map of the layout. Iterating on that map is much faster than editing the complex procedural setup directly; the same tool collection then rebuilds the layout with terrain and connections still editable.",
+   "source_type": "article",
+   "tags": [
+    "astra",
+    "layout",
+    "vector map"
+   ],
+   "source_url": "https://x.com/pvncher/status/2125039913699615087",
+   "credit": "Article by Quentin Marmier (Epic Games) on @UnrealEngine, shared by @pvncher",
+   "related_urls": [
+    "https://x.com/UnrealEngine/status/2124911349775868138"
+   ],
+   "source_id": "x-2125039913699615087",
+   "added_at": "2026-11-24T05:05:31-07:00",
+   "edition": "2026-11-24"
+  },
+  {
+   "id": "x-2125039913699615087-3",
+   "posted_at": "2026-11-24T01:32:51Z",
+   "author": "pvncher",
+   "date": "2026-11-23",
+   "topic": "Models",
+   "subcategory": "3D & game workflows",
+   "title": "Ask Astra for more than you think it can do",
+   "tip": "The author's parting advice: he was at first not demanding enough of Astra and now relies on it more and more for technical work and problem-solving, including complex procedural materials. TL;DR: give it more to do than you think it can.",
+   "source_type": "article",
+   "tags": [
+    "astra",
+    "prompting"
+   ],
+   "source_url": "https://x.com/pvncher/status/2125039913699615087",
+   "credit": "Article by Quentin Marmier (Epic Games) on @UnrealEngine, shared by @pvncher",
+   "related_urls": [
+    "https://x.com/UnrealEngine/status/2124911349775868138"
+   ],
+   "source_id": "x-2125039913699615087",
+   "added_at": "2026-11-24T05:05:31-07:00",
+   "edition": "2026-11-24"
   }
  ],
  "sources": [
@@ -1972,6 +2182,54 @@
    "date": "2026-11-22",
    "added_at": "2026-11-23T05:09:12-07:00",
    "edition": "2026-11-23"
+  },
+  {
+   "type": "video",
+   "title": "Dots improvements recap",
+   "duration_s": 15,
+   "summary_status": "done",
+   "has_local_copy": true,
+   "summary": "Screen recording of the ChatGPT iOS app: tapping the center dot icon in the bottom bar opens the dot onboarding, then the dot chat, which offers to connect Gmail.",
+   "id": "x-2124862749247189124",
+   "author": "_samirism",
+   "url": "https://x.com/_samirism/status/2124862749247189124",
+   "date": "2026-11-23",
+   "added_at": "2026-11-24T05:05:31-07:00",
+   "edition": "2026-11-24"
+  },
+  {
+   "type": "video",
+   "title": "GPT-6.2 Sol in the Chat tab",
+   "duration_s": 27,
+   "summary_status": "done",
+   "has_local_copy": true,
+   "summary": "Promo clip: ChatGPT reads a photo of a parking sign, sets a reminder to move the car, sends it as a notification, and shows a map of parking options. No how-to steps.",
+   "id": "x-2124942186425069836",
+   "author": "ChatGPT",
+   "url": "https://x.com/ChatGPT/status/2124942186425069836",
+   "date": "2026-11-23",
+   "added_at": "2026-11-24T05:05:31-07:00",
+   "edition": "2026-11-24"
+  },
+  {
+   "type": "article",
+   "title": "Building Mont-Saint-Michel with Astra inside Unreal Engine",
+   "id": "x-2125039913699615087",
+   "author": "pvncher",
+   "url": "https://x.com/pvncher/status/2125039913699615087",
+   "date": "2026-11-23",
+   "added_at": "2026-11-24T05:05:31-07:00",
+   "edition": "2026-11-24"
+  },
+  {
+   "id": "x-2125077725333369038",
+   "type": "post",
+   "title": null,
+   "author": "TheRealAdamG",
+   "url": "https://x.com/TheRealAdamG/status/2125077725333369038",
+   "date": "2026-11-23",
+   "added_at": "2026-11-24T05:05:31-07:00",
+   "edition": "2026-11-24"
   }
  ],
  "schema_version": 2
