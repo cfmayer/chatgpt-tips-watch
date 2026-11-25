@@ -8,7 +8,7 @@
   "keep_rule": "ChatGPT and OpenAI-tooling",
   "scope_note": "Only ChatGPT and OpenAI tooling is covered here. Tips about Claude or other AI tools are left out, even when they come from the same accounts; a tip about a tool that works with several agents is included only when it names ChatGPT, Codex or an OpenAI product."
  },
- "last_run": "2026-11-24T05:05:31-07:00",
+ "last_run": "2026-11-25T05:14:59-07:00",
  "window": {
   "start": "2026-11-12",
   "end": "2026-11-19"
@@ -86,6 +86,14 @@
    "window": "2026-11-23/2026-11-24",
    "tips_added": 9,
    "sources_added": 4,
+   "source_summaries_updated": 0
+  },
+  {
+   "at": "2026-11-25T05:14:59-07:00",
+   "edition": "2026-11-25",
+   "window": "2026-11-24T12:05:31Z/2026-11-25T12:14:59Z",
+   "tips_added": 9,
+   "sources_added": 3,
    "source_summaries_updated": 0
   }
  ],
@@ -1746,6 +1754,228 @@
    "source_id": "x-2125039913699615087",
    "added_at": "2026-11-24T05:05:31-07:00",
    "edition": "2026-11-24"
+  },
+  {
+   "id": "x-2125476177062355115",
+   "posted_at": "2026-11-25T06:26:24Z",
+   "author": "gabrielchua",
+   "date": "2026-11-24",
+   "topic": "ChatGPT features",
+   "subcategory": "Dots",
+   "title": "Have your dot triage a feedback channel and brief you each morning",
+   "tip": "In the demo, the dot watches a Slack feedback channel, tags each piece of feedback and flags duplicates of existing tickets. Custom instructions tell it to send a formatted morning summary that groups items under headings like Bugs and Feature requests, so the day's work is easy to scan.",
+   "source_type": "video",
+   "tags": [
+    "dots",
+    "slack",
+    "custom instructions",
+    "video"
+   ],
+   "source_url": "https://x.com/gabrielchua/status/2125476177062355115",
+   "video_timestamp": "0:21",
+   "source_id": "x-2125476177062355115",
+   "added_at": "2026-11-25T05:14:59-07:00",
+   "edition": "2026-11-25"
+  },
+  {
+   "id": "x-2125476177062355115-2",
+   "posted_at": "2026-11-25T06:26:24Z",
+   "author": "gabrielchua",
+   "date": "2026-11-24",
+   "topic": "ChatGPT features",
+   "subcategory": "Dots",
+   "title": "Delegate Codex work to your dot by voice from your phone",
+   "tip": "Talk to your dot from your phone and hand it the work: ask for a read-only investigation of some tickets, mockups for feature requests, or a local Codex thread that uses computer use in the signed-in browser on your connected Mac to reproduce a bug. The dot writes the Codex prompt itself, and the new thread is marked \"Sent from dot\".",
+   "source_type": "video",
+   "tags": [
+    "dots",
+    "codex",
+    "computer use",
+    "voice",
+    "video"
+   ],
+   "source_url": "https://x.com/gabrielchua/status/2125476177062355115",
+   "video_timestamp": "0:51",
+   "source_id": "x-2125476177062355115",
+   "added_at": "2026-11-25T05:14:59-07:00",
+   "edition": "2026-11-25"
+  },
+  {
+   "id": "x-2125476177062355115-3",
+   "posted_at": "2026-11-25T06:26:24Z",
+   "author": "gabrielchua",
+   "date": "2026-11-24",
+   "topic": "ChatGPT features",
+   "subcategory": "Dots",
+   "title": "Fan out Codex Cloud threads and PRs, then let the dot report back",
+   "tip": "Ask the dot to spawn one Codex Cloud thread per issue, each opening its own PR (five threads and five PRs in the demo). Because the threads run in the cloud you can close your laptop; ask the dot to remind you about the PRs when they're done and send an overall status, or progress updates as they run.",
+   "source_type": "video",
+   "tags": [
+    "dots",
+    "codex cloud",
+    "pull requests",
+    "video"
+   ],
+   "source_url": "https://x.com/gabrielchua/status/2125476177062355115",
+   "video_timestamp": "2:11",
+   "source_id": "x-2125476177062355115",
+   "added_at": "2026-11-25T05:14:59-07:00",
+   "edition": "2026-11-25"
+  },
+  {
+   "id": "yt-1u0hTd86_HU-45",
+   "posted_at": "2026-11-25T02:10:17Z",
+   "author": "pvncher",
+   "date": "2026-11-24",
+   "topic": "Codex",
+   "subcategory": "Plugins & design workflows",
+   "title": "Turn a reference image into an editable SVG or 3D model",
+   "tip": "Enable the SVG & 3D Design plugin in Codex. Codex generates a reference image from your description, then uses it to build an editable SVG or Blender scene. Example prompts on the plugin page: \"Create an editable SVG app icon for a birdwatching journal, with a matching PNG preview\" and \"Rebuild this illustration as an editable SVG and compare the result with the reference.\" The video also turns a photo of a tarsier into a 3D .glb model.",
+   "source_type": "video",
+   "tags": [
+    "codex",
+    "plugin",
+    "svg",
+    "3d",
+    "blender",
+    "video"
+   ],
+   "source_url": "https://www.youtube.com/watch?v=1u0hTd86_HU&t=45s",
+   "video_timestamp": "0:45",
+   "source_id": "yt-1u0hTd86_HU",
+   "credit": "Video by @craigsdennis (OpenAI), shared by @pvncher",
+   "related_urls": [
+    "https://learn.chatgpt.com/guides/svg-3d-design"
+   ],
+   "added_at": "2026-11-25T05:14:59-07:00",
+   "edition": "2026-11-25"
+  },
+  {
+   "id": "yt-1u0hTd86_HU-111",
+   "posted_at": "2026-11-25T02:10:17Z",
+   "author": "pvncher",
+   "date": "2026-11-24",
+   "topic": "Codex",
+   "subcategory": "Plugins & design workflows",
+   "title": "Ask for design changes in plain language",
+   "tip": "You don't need to know SVG or Blender to edit the result: tell Codex what to change, as in \"Actually let's move the moon to the right side of the marsupial pirate ship and make it crescent shaped.\" A small change to the SVG code can also add interaction, like a character's eyes following your cursor. Codex can use Blender to check a 3D model from another angle.",
+   "source_type": "video",
+   "tags": [
+    "codex",
+    "plugin",
+    "svg",
+    "3d",
+    "iteration",
+    "video"
+   ],
+   "source_url": "https://www.youtube.com/watch?v=1u0hTd86_HU&t=111s",
+   "video_timestamp": "1:51",
+   "source_id": "yt-1u0hTd86_HU",
+   "credit": "Video by @craigsdennis (OpenAI), shared by @pvncher",
+   "related_urls": [
+    "https://learn.chatgpt.com/guides/svg-3d-design"
+   ],
+   "added_at": "2026-11-25T05:14:59-07:00",
+   "edition": "2026-11-25"
+  },
+  {
+   "id": "x-2125452649164423375",
+   "posted_at": "2026-11-25T04:52:55Z",
+   "author": "TheRealAdamG",
+   "date": "2026-11-24",
+   "topic": "Agents & security",
+   "subcategory": "Codex Security",
+   "title": "Commit a threat model and link it in Codex Cloud settings",
+   "tip": "Generate a threat model with the $codex-security:threat-model skill (or just type $threat-model in Codex), covering entry points and untrusted inputs, sensitive data paths and privileged actions. Commit it as docs/security/threat-model.md and link it in the Codex Cloud settings for the repo; without one, Codex regenerates a threat model for every security review. Revisit it when entry points, trust boundaries or privileged operations change.",
+   "source_type": "article",
+   "tags": [
+    "codex security",
+    "threat model",
+    "security review"
+   ],
+   "source_url": "https://x.com/TheRealAdamG/status/2125452649164423375",
+   "source_id": "x-2125452649164423375",
+   "credit": "OpenAI Developers blog, shared by @TheRealAdamG",
+   "related_urls": [
+    "https://developers.openai.com/blog/building-security-review-into-your-sdlc-with-codex-security"
+   ],
+   "added_at": "2026-11-25T05:14:59-07:00",
+   "edition": "2026-11-25"
+  },
+  {
+   "id": "x-2125452649164423375-2",
+   "posted_at": "2026-11-25T04:52:55Z",
+   "author": "TheRealAdamG",
+   "date": "2026-11-24",
+   "topic": "Agents & security",
+   "subcategory": "Codex Security",
+   "title": "Seed SECURITY.md with the define-security-policy skill",
+   "tip": "AGENTS.md holds shared engineering instructions, the threat model describes the system's security reality, and SECURITY.md tells Codex how to evaluate and report against it. Run $codex-security:define-security-policy with your key policies to generate SECURITY.md, with sections such as security invariants, reportable findings, severity context (e.g. cross-tenant access is Critical) and out of scope.",
+   "source_type": "article",
+   "tags": [
+    "codex security",
+    "SECURITY.md",
+    "AGENTS.md",
+    "skills"
+   ],
+   "source_url": "https://x.com/TheRealAdamG/status/2125452649164423375",
+   "source_id": "x-2125452649164423375",
+   "credit": "OpenAI Developers blog, shared by @TheRealAdamG",
+   "related_urls": [
+    "https://developers.openai.com/blog/building-security-review-into-your-sdlc-with-codex-security"
+   ],
+   "added_at": "2026-11-25T05:14:59-07:00",
+   "edition": "2026-11-25"
+  },
+  {
+   "id": "x-2125452649164423375-3",
+   "posted_at": "2026-11-25T04:52:55Z",
+   "author": "TheRealAdamG",
+   "date": "2026-11-24",
+   "topic": "Agents & security",
+   "subcategory": "Codex Security",
+   "title": "Pass architecture docs to CLI scans as a knowledge base",
+   "tip": "The Codex Security CLI takes supporting documents for a scan: npx @openai/codex-security scan . --knowledge-base docs/security/payment-service-context.md. Diff scans of local changes or a branch review only the proposed changes and write report.md, scan-manifest.json, findings.json (severity, confidence, locations, remediation) and coverage.json (what was reviewed, excluded or deferred).",
+   "source_type": "article",
+   "tags": [
+    "codex security",
+    "cli",
+    "scan",
+    "knowledge base"
+   ],
+   "source_url": "https://x.com/TheRealAdamG/status/2125452649164423375",
+   "source_id": "x-2125452649164423375",
+   "credit": "OpenAI Developers blog, shared by @TheRealAdamG",
+   "related_urls": [
+    "https://developers.openai.com/blog/building-security-review-into-your-sdlc-with-codex-security"
+   ],
+   "added_at": "2026-11-25T05:14:59-07:00",
+   "edition": "2026-11-25"
+  },
+  {
+   "id": "x-2125452649164423375-4",
+   "posted_at": "2026-11-25T04:52:55Z",
+   "author": "TheRealAdamG",
+   "date": "2026-11-24",
+   "topic": "Agents & security",
+   "subcategory": "Codex Security",
+   "title": "Tune PR Security Review thresholds and path overrides",
+   "tip": "Turn on Security Review for GitHub PRs at chatgpt.com/codex/cloud/settings/code-review. Automatic reviews post only High and Critical findings by default, while manually requested reviews also post Medium. Add path overrides in the repo's Codex Cloud settings to lower the threshold for sensitive paths such as auth, payments, CI workflows or infrastructure. Start with one workflow (local, PR or CLI) and expand once its findings prove useful.",
+   "source_type": "article",
+   "tags": [
+    "codex security",
+    "pull requests",
+    "code review",
+    "settings"
+   ],
+   "source_url": "https://x.com/TheRealAdamG/status/2125452649164423375",
+   "source_id": "x-2125452649164423375",
+   "credit": "OpenAI Developers blog, shared by @TheRealAdamG",
+   "related_urls": [
+    "https://developers.openai.com/blog/building-security-review-into-your-sdlc-with-codex-security"
+   ],
+   "added_at": "2026-11-25T05:14:59-07:00",
+   "edition": "2026-11-25"
   }
  ],
  "sources": [
@@ -2230,6 +2460,45 @@
    "date": "2026-11-23",
    "added_at": "2026-11-24T05:05:31-07:00",
    "edition": "2026-11-24"
+  },
+  {
+   "type": "video",
+   "title": "Managing Codex through dots",
+   "duration_s": 220,
+   "summary_status": "done",
+   "has_local_copy": true,
+   "summary": "Screen demo by @gabrielchua: his dot watches a Slack feedback channel and sends a morning summary, then, by voice from his phone, he has it run a read-only investigation, make UI mockups, start a local Codex thread that uses computer use to reproduce a mobile bug, and spawn Codex Cloud threads that open five PRs while it reports status.",
+   "id": "x-2125476177062355115",
+   "author": "gabrielchua",
+   "url": "https://x.com/gabrielchua/status/2125476177062355115",
+   "date": "2026-11-24",
+   "added_at": "2026-11-25T05:14:59-07:00",
+   "edition": "2026-11-25"
+  },
+  {
+   "id": "yt-1u0hTd86_HU",
+   "type": "video",
+   "title": "Experiment with SVG & 3D Design with the Codex Plugin",
+   "url": "https://www.youtube.com/watch?v=1u0hTd86_HU",
+   "posted_in": "https://x.com/pvncher/status/2125411720948760771",
+   "author": "pvncher",
+   "date": "2026-11-24",
+   "duration_s": 295,
+   "summary_status": "done",
+   "has_local_copy": true,
+   "summary": "OpenAI video with Craig Dennis showing what the SVG & 3D Design plugin for Codex makes: editable SVG illustrations and interactive graphics, and 3D models built in Blender from reference images, refined with plain-language prompts. Mostly a showcase; the plugin page lists example prompts.",
+   "added_at": "2026-11-25T05:14:59-07:00",
+   "edition": "2026-11-25"
+  },
+  {
+   "type": "article",
+   "title": "Building security review into your SDLC with Codex Security",
+   "id": "x-2125452649164423375",
+   "author": "TheRealAdamG",
+   "url": "https://x.com/TheRealAdamG/status/2125452649164423375",
+   "date": "2026-11-24",
+   "added_at": "2026-11-25T05:14:59-07:00",
+   "edition": "2026-11-25"
   }
  ],
  "schema_version": 2
