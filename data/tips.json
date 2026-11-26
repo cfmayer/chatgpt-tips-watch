@@ -8,7 +8,7 @@
   "keep_rule": "ChatGPT and OpenAI-tooling",
   "scope_note": "Only ChatGPT and OpenAI tooling is covered here. Tips about Claude or other AI tools are left out, even when they come from the same accounts; a tip about a tool that works with several agents is included only when it names ChatGPT, Codex or an OpenAI product."
  },
- "last_run": "2026-11-25T05:14:59-07:00",
+ "last_run": "2026-11-26T05:07:44-07:00",
  "window": {
   "start": "2026-11-12",
   "end": "2026-11-19"
@@ -94,6 +94,14 @@
    "window": "2026-11-24T12:05:31Z/2026-11-25T12:14:59Z",
    "tips_added": 9,
    "sources_added": 3,
+   "source_summaries_updated": 0
+  },
+  {
+   "at": "2026-11-26T05:07:44-07:00",
+   "edition": "2026-11-26",
+   "window": "2026-11-25T12:14:59Z/2026-11-26T12:07:43Z",
+   "tips_added": 2,
+   "sources_added": 2,
    "source_summaries_updated": 0
   }
  ],
@@ -1976,6 +1984,57 @@
    ],
    "added_at": "2026-11-25T05:14:59-07:00",
    "edition": "2026-11-25"
+  },
+  {
+   "id": "x-2125831156142883232",
+   "posted_at": "2026-11-26T05:56:58Z",
+   "author": "gabrielchua",
+   "date": "2026-11-25",
+   "topic": "OpenAI API",
+   "subcategory": "Caching & cost",
+   "title": "Estimate agent cost as price x tokens per attempt x attempts",
+   "tip": "The sticker price per million tokens is only one part of what a model costs you. Multiply it by the tokens the model uses per attempt and the number of attempts it needs (Cost = P x Q x N). Also count the time cost: when you delegate and multitask, your attention is scarce, so features in the Codex app like Appshots and dictation help you stay in the flow while the agent works.",
+   "source_type": "video",
+   "tags": [
+    "cost",
+    "tokens",
+    "codex app",
+    "appshots",
+    "dictation",
+    "video"
+   ],
+   "source_url": "https://x.com/gabrielchua/status/2125831156142883232",
+   "video_timestamp": "0:06",
+   "source_id": "x-2125831156142883232",
+   "added_at": "2026-11-26T05:07:44-07:00",
+   "edition": "2026-11-26"
+  },
+  {
+   "id": "x-2125687688066199721",
+   "posted_at": "2026-11-25T20:26:52Z",
+   "author": "danshipper",
+   "date": "2026-11-25",
+   "topic": "ChatGPT features",
+   "subcategory": "Dots",
+   "title": "Use your dot as a real-time communication coach",
+   "tip": "@bran_don_gell had his OpenAI dot, which already read his Slack messages, also review his recorded meetings (via a connected meeting recorder), with simple instructions: communicate more executively, lead with curiosity, and give feedback as close to real time as possible. When he slipped up, the dot pointed it out and he could edit the message or clarify what he'd said. He shared the skill he used, to connect to Slack/Teams plus meeting notes.",
+   "source_type": "post",
+   "tags": [
+    "dots",
+    "skills",
+    "slack",
+    "meetings",
+    "coaching"
+   ],
+   "source_url": "https://x.com/danshipper/status/2125687688066199721",
+   "credit": "Shared by @danshipper, quoting @bran_don_gell",
+   "related_urls": [
+    "https://x.com/bran_don_gell/status/2125686252624314782",
+    "https://github.com/EveryInc/executive-feedback-skill"
+   ],
+   "added_at": "2026-11-26T05:07:44-07:00",
+   "edition": "2026-11-26",
+   "source_id": "x-2125687688066199721"
   }
  ],
  "sources": [
@@ -2499,6 +2558,30 @@
    "date": "2026-11-24",
    "added_at": "2026-11-25T05:14:59-07:00",
    "edition": "2026-11-25"
+  },
+  {
+   "type": "video",
+   "title": "How I think about cost",
+   "duration_s": 42,
+   "summary_status": "done",
+   "has_local_copy": true,
+   "summary": "Short talk by @gabrielchua (OpenAI): AI cost is price per token times tokens per attempt times number of attempts, plus the time and attention cost of delegating; mentions Codex app Appshots and dictation for staying in the flow.",
+   "id": "x-2125831156142883232",
+   "author": "gabrielchua",
+   "url": "https://x.com/gabrielchua/status/2125831156142883232",
+   "date": "2026-11-25",
+   "added_at": "2026-11-26T05:07:44-07:00",
+   "edition": "2026-11-26"
+  },
+  {
+   "id": "x-2125687688066199721",
+   "type": "post",
+   "title": null,
+   "author": "danshipper",
+   "url": "https://x.com/danshipper/status/2125687688066199721",
+   "date": "2026-11-25",
+   "added_at": "2026-11-26T05:07:44-07:00",
+   "edition": "2026-11-26"
   }
  ],
  "schema_version": 2

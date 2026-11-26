@@ -5,8 +5,31 @@
   <link rel="self" type="application/atom+xml" href="https://cfmayer.github.io/chatgpt-tips-watch/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/"/>
   <id>https://cfmayer.github.io/chatgpt-tips-watch/</id>
-  <updated>2026-11-25T05:14:59-07:00</updated>
+  <updated>2026-11-26T05:07:44-07:00</updated>
   <author><name>ChatGPT Tips Watch</name></author>
+  <entry>
+    <title>OpenAI API › Caching &amp; cost: How I think about cost</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2125831156142883232"/>
+    <link rel="related" href="https://x.com/gabrielchua/status/2125831156142883232"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2125831156142883232</id>
+    <published>2026-11-26T05:56:58Z</published>
+    <updated>2026-11-26T05:07:44-07:00</updated>
+    <author><name>@gabrielchua</name></author>
+    <category term="edition-2026-11-26"/>
+    <summary>Short talk by @gabrielchua (OpenAI): AI cost is price per token times tokens per attempt times number of attempts, plus the time and attention cost of delegating; mentions Codex app Appshots and dictation for staying in the flow.
+• 0:06 Estimate agent cost as price x tokens per attempt x attempts: The sticker price per million tokens is only one part of what a model costs you. Multiply it by the tokens the model uses per attempt and the number of attempts it needs (Cost = P x Q x N). Also count the time cost: when you delegate and multitask, your attention is scarce, so features in the Codex app like Appshots and dictation help you stay in the flow while the agent works. (Source: https://x.com/gabrielchua/status/2125831156142883232)</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT features › Dots: Use your dot as a real-time communication coach</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2125687688066199721"/>
+    <link rel="related" href="https://x.com/danshipper/status/2125687688066199721"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2125687688066199721</id>
+    <published>2026-11-25T20:26:52Z</published>
+    <updated>2026-11-26T05:07:44-07:00</updated>
+    <author><name>@danshipper</name></author>
+    <category term="edition-2026-11-26"/>
+    <summary>• Use your dot as a real-time communication coach: @bran_don_gell had his OpenAI dot, which already read his Slack messages, also review his recorded meetings (via a connected meeting recorder), with simple instructions: communicate more executively, lead with curiosity, and give feedback as close to real time as possible. When he slipped up, the dot pointed it out and he could edit the message or clarify what he&#x27;d said. He shared the skill he used, to connect to Slack/Teams plus meeting notes. (Source: https://x.com/danshipper/status/2125687688066199721)</summary>
+  </entry>
   <entry>
     <title>ChatGPT features › Dots: Managing Codex through dots</title>
     <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2125476177062355115"/>
