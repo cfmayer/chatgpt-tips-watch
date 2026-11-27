@@ -8,7 +8,7 @@
   "keep_rule": "ChatGPT and OpenAI-tooling",
   "scope_note": "Only ChatGPT and OpenAI tooling is covered here. Tips about Claude or other AI tools are left out, even when they come from the same accounts; a tip about a tool that works with several agents is included only when it names ChatGPT, Codex or an OpenAI product."
  },
- "last_run": "2026-11-26T05:07:44-07:00",
+ "last_run": "2026-11-27T05:06:05-07:00",
  "window": {
   "start": "2026-11-12",
   "end": "2026-11-19"
@@ -101,6 +101,14 @@
    "edition": "2026-11-26",
    "window": "2026-11-25T12:14:59Z/2026-11-26T12:07:43Z",
    "tips_added": 2,
+   "sources_added": 2,
+   "source_summaries_updated": 0
+  },
+  {
+   "at": "2026-11-27T05:06:05-07:00",
+   "edition": "2026-11-27",
+   "window": "2026-11-26T12:07:44Z/2026-11-27T12:05:00Z",
+   "tips_added": 9,
    "sources_added": 2,
    "source_summaries_updated": 0
   }
@@ -2035,6 +2043,213 @@
    "added_at": "2026-11-26T05:07:44-07:00",
    "edition": "2026-11-26",
    "source_id": "x-2125687688066199721"
+  },
+  {
+   "id": "x-2126148397455523917",
+   "posted_at": "2026-11-27T02:57:34Z",
+   "author": "gabrielchua",
+   "date": "2026-11-26",
+   "topic": "OpenAI API",
+   "subcategory": "Realtime & voice",
+   "title": "Pick the right voice-agent architecture: cascade, turn-based or full duplex",
+   "tip": "Three ways to build a voice agent: a cascade (transcribe, reason, speak) gives you control but can add delay; turn-based speech-to-speech (GPT-Realtime) takes turns, so an interruption can cut a reply short and reasoning takes time; full duplex (GPT-Live) has no fixed turns and listens while it speaks, so it can hand reasoning to a backend without stalling the conversation.",
+   "source_type": "video",
+   "tags": [
+    "gpt-live",
+    "gpt-realtime",
+    "voice agents",
+    "architecture",
+    "video"
+   ],
+   "source_url": "https://x.com/gabrielchua/status/2126148397455523917",
+   "video_timestamp": "0:23",
+   "source_id": "x-2126148397455523917",
+   "added_at": "2026-11-27T05:06:05-07:00",
+   "edition": "2026-11-27"
+  },
+  {
+   "id": "x-2126148397455523917-2",
+   "posted_at": "2026-11-27T02:57:34Z",
+   "author": "gabrielchua",
+   "date": "2026-11-26",
+   "topic": "OpenAI API",
+   "subcategory": "Realtime & voice",
+   "title": "Delegate GPT-Live reasoning with session.delegation",
+   "tip": "GPT-Live can hand reasoning off to a backend in three ways, set with session.delegation: type \"responses\" runs a frontier model (GPT-6.2 Astra is named) through the Responses API with built-in tools such as web and file search; type \"client\" connects your own model or agent; type \"decisions\" (Decisions API) has OpenAI pick a tool while your app runs it.",
+   "source_type": "video",
+   "tags": [
+    "gpt-live",
+    "delegation",
+    "responses api",
+    "decisions api",
+    "video"
+   ],
+   "source_url": "https://x.com/gabrielchua/status/2126148397455523917",
+   "video_timestamp": "0:39",
+   "source_id": "x-2126148397455523917",
+   "added_at": "2026-11-27T05:06:05-07:00",
+   "edition": "2026-11-27"
+  },
+  {
+   "id": "x-2126148397455523917-3",
+   "posted_at": "2026-11-27T02:57:34Z",
+   "author": "gabrielchua",
+   "date": "2026-11-26",
+   "topic": "OpenAI API",
+   "subcategory": "Realtime & voice",
+   "title": "Use standby mode for always-on WebRTC voice agents",
+   "tip": "For an always-on agent on WebRTC voice, standby mode drops the rate from $0.05/min active to $0.02/min (60% less), and the agent resumes when you speak.",
+   "source_type": "video",
+   "tags": [
+    "gpt-live",
+    "webrtc",
+    "standby",
+    "cost",
+    "pricing",
+    "video"
+   ],
+   "source_url": "https://x.com/gabrielchua/status/2126148397455523917",
+   "video_timestamp": "0:50",
+   "source_id": "x-2126148397455523917",
+   "added_at": "2026-11-27T05:06:05-07:00",
+   "edition": "2026-11-27"
+  },
+  {
+   "id": "x-2126148397455523917-4",
+   "posted_at": "2026-11-27T02:57:34Z",
+   "author": "gabrielchua",
+   "date": "2026-11-26",
+   "topic": "Codex",
+   "subcategory": "Plugins & design workflows",
+   "title": "Add GPT-Live to your app with the OpenAI Developers plugin in Codex",
+   "tip": "To start an integration, open Codex, select the OpenAI Developers plugin and prompt it with something like \"Add GPT-Live-1.1 to my booking agent\".",
+   "source_type": "video",
+   "tags": [
+    "codex",
+    "plugin",
+    "openai developers",
+    "gpt-live",
+    "video"
+   ],
+   "source_url": "https://x.com/gabrielchua/status/2126148397455523917",
+   "video_timestamp": "0:54",
+   "source_id": "x-2126148397455523917",
+   "added_at": "2026-11-27T05:06:05-07:00",
+   "edition": "2026-11-27"
+  },
+  {
+   "id": "x-2126138625020830021",
+   "posted_at": "2026-11-27T02:18:44Z",
+   "author": "gabrielchua",
+   "date": "2026-11-26",
+   "topic": "Codex",
+   "subcategory": "Feedback & app",
+   "title": "Set up Codex Cloud environments so tasks run without your laptop",
+   "tip": "Create a Codex Cloud environment for each repo (or use the default environment when no repo is needed). Then you can fire off Codex tasks straight from your phone, or have your dot fire them off, without keeping your laptop open.",
+   "source_type": "video",
+   "tags": [
+    "codex cloud",
+    "environments",
+    "mobile",
+    "dots",
+    "video"
+   ],
+   "source_url": "https://x.com/gabrielchua/status/2126138625020830021",
+   "video_timestamp": "0:03",
+   "source_id": "x-2126138625020830021",
+   "added_at": "2026-11-27T05:06:05-07:00",
+   "edition": "2026-11-27"
+  },
+  {
+   "id": "x-2126138625020830021-2",
+   "posted_at": "2026-11-27T02:18:44Z",
+   "author": "gabrielchua",
+   "date": "2026-11-26",
+   "topic": "ChatGPT features",
+   "subcategory": "Dots",
+   "title": "Add your dot to Slack group DMs and forward it requests",
+   "tip": "Add your dot to Slack and group DMs so it can handle tasks there; for example, when someone asks whether you're free for a meeting, forward the message to your dot and let it handle it.",
+   "source_type": "video",
+   "tags": [
+    "dots",
+    "slack",
+    "group dms",
+    "scheduling",
+    "video"
+   ],
+   "source_url": "https://x.com/gabrielchua/status/2126138625020830021",
+   "video_timestamp": "0:19",
+   "source_id": "x-2126138625020830021",
+   "added_at": "2026-11-27T05:06:05-07:00",
+   "edition": "2026-11-27"
+  },
+  {
+   "id": "x-2126138625020830021-3",
+   "posted_at": "2026-11-27T02:18:44Z",
+   "author": "gabrielchua",
+   "date": "2026-11-26",
+   "topic": "ChatGPT features",
+   "subcategory": "Dots",
+   "title": "Let your dot use Codex and ChatGPT as tools",
+   "tip": "Give your dot ChatGPT and Codex as tools: it can start a ChatGPT chat or a Codex task and then manage or babysit it for you.",
+   "source_type": "video",
+   "tags": [
+    "dots",
+    "codex",
+    "chatgpt",
+    "delegation",
+    "video"
+   ],
+   "source_url": "https://x.com/gabrielchua/status/2126138625020830021",
+   "video_timestamp": "0:36",
+   "source_id": "x-2126138625020830021",
+   "added_at": "2026-11-27T05:06:05-07:00",
+   "edition": "2026-11-27"
+  },
+  {
+   "id": "x-2126138625020830021-4",
+   "posted_at": "2026-11-27T02:18:44Z",
+   "author": "gabrielchua",
+   "date": "2026-11-26",
+   "topic": "ChatGPT features",
+   "subcategory": "Dots",
+   "title": "Use custom instructions to have your dot chase missing details",
+   "tip": "Write custom instructions for routine operations; for example, when an email arrives missing information, the dot automatically drafts a reply asking the sender to furnish the missing details.",
+   "source_type": "video",
+   "tags": [
+    "dots",
+    "custom instructions",
+    "email",
+    "automation",
+    "video"
+   ],
+   "source_url": "https://x.com/gabrielchua/status/2126138625020830021",
+   "video_timestamp": "0:46",
+   "source_id": "x-2126138625020830021",
+   "added_at": "2026-11-27T05:06:05-07:00",
+   "edition": "2026-11-27"
+  },
+  {
+   "id": "x-2126138625020830021-5",
+   "posted_at": "2026-11-27T02:18:44Z",
+   "author": "gabrielchua",
+   "date": "2026-11-26",
+   "topic": "ChatGPT features",
+   "subcategory": "Dots",
+   "title": "Hand repetitive clicking to computer use",
+   "tip": "If you find yourself clicking many buttons here and there to do the same task, automate it with computer use.",
+   "source_type": "video",
+   "tags": [
+    "computer use",
+    "automation",
+    "dots",
+    "video"
+   ],
+   "source_url": "https://x.com/gabrielchua/status/2126138625020830021",
+   "video_timestamp": "0:59",
+   "source_id": "x-2126138625020830021",
+   "added_at": "2026-11-27T05:06:05-07:00",
+   "edition": "2026-11-27"
   }
  ],
  "sources": [
@@ -2582,6 +2797,34 @@
    "date": "2026-11-25",
    "added_at": "2026-11-26T05:07:44-07:00",
    "edition": "2026-11-26"
+  },
+  {
+   "type": "video",
+   "title": "Building voice agents with GPT-Live",
+   "duration_s": 60,
+   "summary_status": "done",
+   "has_local_copy": true,
+   "summary": "Animated explainer by @gabrielchua (OpenAI) on GPT-Live-1.1: noisy-transcription and accent demos, cascade vs turn-based vs full-duplex voice agents, three session.delegation modes (Responses API, client, Decisions API), WebRTC standby pricing, and starting the integration with the OpenAI Developers plugin in Codex.",
+   "id": "x-2126148397455523917",
+   "author": "gabrielchua",
+   "url": "https://x.com/gabrielchua/status/2126148397455523917",
+   "date": "2026-11-26",
+   "added_at": "2026-11-27T05:06:05-07:00",
+   "edition": "2026-11-27"
+  },
+  {
+   "type": "video",
+   "title": "5 ways I use Codex and dots",
+   "duration_s": 65,
+   "summary_status": "done",
+   "has_local_copy": true,
+   "summary": "Talking-head clip by @gabrielchua (OpenAI), no screen demo: Codex Cloud environments for phone-launched tasks, dots in Slack group DMs, dots driving Codex and ChatGPT, custom instructions for automatic follow-up emails, and computer use for repetitive clicking.",
+   "id": "x-2126138625020830021",
+   "author": "gabrielchua",
+   "url": "https://x.com/gabrielchua/status/2126138625020830021",
+   "date": "2026-11-26",
+   "added_at": "2026-11-27T05:06:05-07:00",
+   "edition": "2026-11-27"
   }
  ],
  "schema_version": 2

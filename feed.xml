@@ -5,8 +5,39 @@
   <link rel="self" type="application/atom+xml" href="https://cfmayer.github.io/chatgpt-tips-watch/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/"/>
   <id>https://cfmayer.github.io/chatgpt-tips-watch/</id>
-  <updated>2026-11-26T05:07:44-07:00</updated>
+  <updated>2026-11-27T05:06:05-07:00</updated>
   <author><name>ChatGPT Tips Watch</name></author>
+  <entry>
+    <title>OpenAI API › Realtime &amp; voice: Building voice agents with GPT-Live</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2126148397455523917"/>
+    <link rel="related" href="https://x.com/gabrielchua/status/2126148397455523917"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2126148397455523917</id>
+    <published>2026-11-27T02:57:34Z</published>
+    <updated>2026-11-27T05:06:05-07:00</updated>
+    <author><name>@gabrielchua</name></author>
+    <category term="edition-2026-11-27"/>
+    <summary>Animated explainer by @gabrielchua (OpenAI) on GPT-Live-1.1: noisy-transcription and accent demos, cascade vs turn-based vs full-duplex voice agents, three session.delegation modes (Responses API, client, Decisions API), WebRTC standby pricing, and starting the integration with the OpenAI Developers plugin in Codex.
+• 0:23 Pick the right voice-agent architecture: cascade, turn-based or full duplex: Three ways to build a voice agent: a cascade (transcribe, reason, speak) gives you control but can add delay; turn-based speech-to-speech (GPT-Realtime) takes turns, so an interruption can cut a reply short and reasoning takes time; full duplex (GPT-Live) has no fixed turns and listens while it speaks, so it can hand reasoning to a backend without stalling the conversation.
+• 0:39 Delegate GPT-Live reasoning with session.delegation: GPT-Live can hand reasoning off to a backend in three ways, set with session.delegation: type &quot;responses&quot; runs a frontier model (GPT-6.2 Astra is named) through the Responses API with built-in tools such as web and file search; type &quot;client&quot; connects your own model or agent; type &quot;decisions&quot; (Decisions API) has OpenAI pick a tool while your app runs it.
+• 0:50 Use standby mode for always-on WebRTC voice agents: For an always-on agent on WebRTC voice, standby mode drops the rate from $0.05/min active to $0.02/min (60% less), and the agent resumes when you speak.
+• 0:54 Add GPT-Live to your app with the OpenAI Developers plugin in Codex: To start an integration, open Codex, select the OpenAI Developers plugin and prompt it with something like &quot;Add GPT-Live-1.1 to my booking agent&quot;. (Source: https://x.com/gabrielchua/status/2126148397455523917)</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT features › Dots: 5 ways I use Codex and dots</title>
+    <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2126138625020830021"/>
+    <link rel="related" href="https://x.com/gabrielchua/status/2126138625020830021"/>
+    <id>https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2126138625020830021</id>
+    <published>2026-11-27T02:18:44Z</published>
+    <updated>2026-11-27T05:06:05-07:00</updated>
+    <author><name>@gabrielchua</name></author>
+    <category term="edition-2026-11-27"/>
+    <summary>Talking-head clip by @gabrielchua (OpenAI), no screen demo: Codex Cloud environments for phone-launched tasks, dots in Slack group DMs, dots driving Codex and ChatGPT, custom instructions for automatic follow-up emails, and computer use for repetitive clicking.
+• 0:03 Set up Codex Cloud environments so tasks run without your laptop: Create a Codex Cloud environment for each repo (or use the default environment when no repo is needed). Then you can fire off Codex tasks straight from your phone, or have your dot fire them off, without keeping your laptop open.
+• 0:19 Add your dot to Slack group DMs and forward it requests: Add your dot to Slack and group DMs so it can handle tasks there; for example, when someone asks whether you&#x27;re free for a meeting, forward the message to your dot and let it handle it.
+• 0:36 Let your dot use Codex and ChatGPT as tools: Give your dot ChatGPT and Codex as tools: it can start a ChatGPT chat or a Codex task and then manage or babysit it for you.
+• 0:46 Use custom instructions to have your dot chase missing details: Write custom instructions for routine operations; for example, when an email arrives missing information, the dot automatically drafts a reply asking the sender to furnish the missing details.
+• 0:59 Hand repetitive clicking to computer use: If you find yourself clicking many buttons here and there to do the same task, automate it with computer use. (Source: https://x.com/gabrielchua/status/2126138625020830021)</summary>
+  </entry>
   <entry>
     <title>OpenAI API › Caching &amp; cost: How I think about cost</title>
     <link rel="alternate" type="text/html" href="https://cfmayer.github.io/chatgpt-tips-watch/#s-x-2125831156142883232"/>
