@@ -180,6 +180,14 @@
     "usage",
     "rate limit"
    ]
+  },
+  {
+   "name": "Decisions API",
+   "keywords": [
+    "decisions api",
+    "predicate",
+    "score"
+   ]
   }
  ],
  "Agents & security": [
